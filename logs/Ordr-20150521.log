@@ -1,0 +1,180 @@
+      05-21-2015 11:11:03 - ORDER:    OrderCreate Start...  
+      05-21-2015 11:11:03 - ORDER:      Base Order Start...
+      05-21-2015 11:11:03 - ORDER:        Base Variables Loaded...
+      05-21-2015 11:11:03 - ORDER:      Connected...
+      05-21-2015 11:11:03 - ORDER:      Access Code ID:  388
+      05-21-2015 11:11:03 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 388, '5/21/2015 11:11:03 AM', '', 'Darryel', 'Picou', 'picou@pioneer-eclipse.com', 71, '', 2.5, 250, 10, 120, 120, 0, '', 'Pioneer', '2951 Marina Bay Dr. Ste, 130-534', '', 'League City', 'TX', '77573', 'United States', 'Darryel', 'Picou','5/21/2015 11:11:03 AM','d6ac43df-cc5c-4552-9047-338f67aec7c6', '3305555555', '', 'False') 
+      05-21-2015 11:11:03 - ORDER:          Message:    Successful Execute
+      05-21-2015 11:11:03 - ORDER:      Reading Order ID...  388 AND 5/21/2015 11:11:03 AM
+      05-21-2015 11:11:03 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 388) AND (TempGUID = 'd6ac43df-cc5c-4552-9047-338f67aec7c6'))
+      05-21-2015 11:11:03 - ORDER:        Located Order ID...  82630
+      05-21-2015 11:11:03 - ORDER:        Order ID:  82630
+      05-21-2015 11:11:03 - ORDER:      Base Order End
+      05-21-2015 11:11:03 - ORDER:      Saving Custom Start...
+      05-21-2015 11:11:03 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      05-21-2015 11:11:03 - ORDER:      Saved Custom End True
+      05-21-2015 11:11:03 - ORDER:      Saving Items Start...
+      05-21-2015 11:11:03 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      05-21-2015 11:11:03 - ORDER:      Saved Items End True
+      05-21-2015 11:11:03 - ORDER:      Saving Kits Start...
+      05-21-2015 11:11:03 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      05-21-2015 11:11:03 - ORDER:      Saved Kits End True
+      05-21-2015 11:13:41 - ORDER:      Requires Authorization:  False
+      05-21-2015 11:13:42 - ORDER:      Order Activated:  True
+      05-21-2015 11:13:42 - ORDER:    SendMessage - trying to send email to: picou@pioneer-eclipse.com, Subject: Order Confirmation
+      05-21-2015 11:14:09 - ORDER:    SendNewOrderNotifications for order# 82630
+      05-21-2015 11:14:09 - ORDER:    SendNewOrderNotifications - Para Sales Contact - 
+      05-21-2015 11:14:09 - ORDER:    SendMessage - trying to send email to: sboz@para-inc.com, Subject: Order Confirmation
+      05-21-2015 11:14:24 - ORDER:    OrderCreate End... True5/21/2015 11:14:24 AM
+
+      05-21-2015 11:14:24 - ORDER:    Closing Connection
+      05-21-2015 11:14:24 - ORDER:    OrderID = 82630
+      05-21-2015 11:14:24 - ORDER:    OrderCreate >> Success ? True
+
+      05-21-2015 11:21:59 - ORDER:    OrderCreate Start...  
+      05-21-2015 11:21:59 - ORDER:      Base Order Start...
+      05-21-2015 11:21:59 - ORDER:        Base Variables Loaded...
+      05-21-2015 11:21:59 - ORDER:      Connected...
+      05-21-2015 11:21:59 - ORDER:      Access Code ID:  388
+      05-21-2015 11:22:00 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 388, '5/21/2015 11:21:59 AM', '', 'Darryel', 'Picou', 'picou@pioneer-eclipse.com', 71, '', 2.5, 250, 10, 120, 120, 0, '', 'Pioneer', '2951 Marina Bay Dr. Ste, 130-534', '', 'League City', 'TX', '77573', 'United States', 'Darryel', 'Picou','5/21/2015 11:21:59 AM','bb3f47e2-1e7b-4217-928f-99f3d7c149ca', '3305555555', '', 'False') 
+      05-21-2015 11:22:00 - ORDER:          Message:    Successful Execute
+      05-21-2015 11:22:00 - ORDER:      Reading Order ID...  388 AND 5/21/2015 11:21:59 AM
+      05-21-2015 11:22:00 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 388) AND (TempGUID = 'bb3f47e2-1e7b-4217-928f-99f3d7c149ca'))
+      05-21-2015 11:22:00 - ORDER:        Located Order ID...  82631
+      05-21-2015 11:22:00 - ORDER:        Order ID:  82631
+      05-21-2015 11:22:00 - ORDER:      Base Order End
+      05-21-2015 11:22:00 - ORDER:      Saving Custom Start...
+      05-21-2015 11:22:00 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      05-21-2015 11:22:00 - ORDER:      Saved Custom End True
+      05-21-2015 11:22:00 - ORDER:      Saving Items Start...
+      05-21-2015 11:22:00 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      05-21-2015 11:22:00 - ORDER:      Saved Items End True
+      05-21-2015 11:22:00 - ORDER:      Saving Kits Start...
+      05-21-2015 11:22:00 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      05-21-2015 11:22:00 - ORDER:      Saved Kits End True
+      05-21-2015 11:22:21 - ORDER:    SendMessage - trying to send email to: pat.marshall@pioneer-eclipse.com, Subject: Order Authorization Check
+      05-21-2015 11:22:24 - ORDER:    SendNewOrderAuthorizationNotifications for order# 82631
+      05-21-2015 11:22:24 - ORDER:      Send Auth Notifications -  Primary - strickland@pioneer-eclipse.com
+      05-21-2015 11:22:24 - ORDER:    SendMessage - trying to send email to: strickland@pioneer-eclipse.com, Subject: Order Authorization Check
+      05-21-2015 11:22:45 - ORDER:    Send Auth Notifications - Para Sales Contact - sboz@para-inc.com
+      05-21-2015 11:22:45 - ORDER:    SendMessage - trying to send email to: sboz@para-inc.com, Subject: Order Authorization Check
+      05-21-2015 11:23:06 - ORDER:      Requires Authorization:  True
+      05-21-2015 11:23:06 - ORDER:    SendMessage - trying to send email to: picou@pioneer-eclipse.com, Subject: Order Confirmation
+      05-21-2015 11:23:27 - ORDER:    SendNewOrderNotifications for order# 82631
+      05-21-2015 11:23:27 - ORDER:    SendNewOrderNotifications - Para Sales Contact - 
+      05-21-2015 11:23:28 - ORDER:    SendMessage - trying to send email to: sboz@para-inc.com, Subject: Order Confirmation
+      05-21-2015 11:23:49 - ORDER:    OrderCreate End... True5/21/2015 11:23:49 AM
+
+      05-21-2015 11:23:49 - ORDER:    Closing Connection
+      05-21-2015 11:23:49 - ORDER:    OrderID = 82631
+      05-21-2015 11:23:49 - ORDER:    OrderCreate >> Success ? True
+
+      05-21-2015 11:24:59 - ORDER:    OrderCreate Start...  
+      05-21-2015 11:25:00 - ORDER:      Base Order Start...
+      05-21-2015 11:25:00 - ORDER:        Base Variables Loaded...
+      05-21-2015 11:25:00 - ORDER:      Connected...
+      05-21-2015 11:25:00 - ORDER:      Access Code ID:  388
+      05-21-2015 11:25:00 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 388, '5/21/2015 11:25:00 AM', '', 'Darryel', 'Picou', 'picou@pioneer-eclipse.com', 71, '', 2.5, 250, 10, 120, 120, 0, '', 'Pioneer', '2951 Marina Bay Dr. Ste, 130-534', '', 'League City', 'TX', '77573', 'United States', 'Darryel', 'Picou','5/21/2015 11:25:00 AM','bf68cd1a-aeaf-4901-b809-2494027004aa', '3302802210', '', 'False') 
+      05-21-2015 11:25:00 - ORDER:          Message:    Successful Execute
+      05-21-2015 11:25:00 - ORDER:      Reading Order ID...  388 AND 5/21/2015 11:25:00 AM
+      05-21-2015 11:25:00 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 388) AND (TempGUID = 'bf68cd1a-aeaf-4901-b809-2494027004aa'))
+      05-21-2015 11:25:00 - ORDER:        Located Order ID...  82632
+      05-21-2015 11:25:00 - ORDER:        Order ID:  82632
+      05-21-2015 11:25:00 - ORDER:      Base Order End
+      05-21-2015 11:25:00 - ORDER:      Saving Custom Start...
+      05-21-2015 11:25:00 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      05-21-2015 11:25:00 - ORDER:      Saved Custom End True
+      05-21-2015 11:25:00 - ORDER:      Saving Items Start...
+      05-21-2015 11:25:00 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      05-21-2015 11:25:00 - ORDER:      Saved Items End True
+      05-21-2015 11:25:00 - ORDER:      Saving Kits Start...
+      05-21-2015 11:25:00 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      05-21-2015 11:25:00 - ORDER:      Saved Kits End True
+      05-21-2015 11:27:46 - ORDER:    SendMessage - trying to send email to: pat.marshall@pioneer-eclipse.com, Subject: Order Authorization Check
+      05-21-2015 11:28:52 - ORDER:    SendNewOrderAuthorizationNotifications for order# 82632
+      05-21-2015 11:28:52 - ORDER:      Send Auth Notifications -  Primary - strickland@pioneer-eclipse.com
+      05-21-2015 11:28:52 - ORDER:    SendMessage - trying to send email to: strickland@pioneer-eclipse.com, Subject: Order Authorization Check
+      05-21-2015 11:29:13 - ORDER:    Send Auth Notifications - Para Sales Contact - sboz@para-inc.com
+      05-21-2015 11:29:13 - ORDER:    SendMessage - trying to send email to: sboz@para-inc.com, Subject: Order Authorization Check
+      05-21-2015 11:29:24 - ORDER:      Requires Authorization:  True
+      05-21-2015 11:29:26 - ORDER:    SendMessage - trying to send email to: picou@pioneer-eclipse.com, Subject: Order Confirmation
+      05-21-2015 11:29:40 - ORDER:    SendNewOrderNotifications for order# 82632
+      05-21-2015 11:29:40 - ORDER:    SendNewOrderNotifications - Para Sales Contact - 
+      05-21-2015 11:29:40 - ORDER:    SendMessage - trying to send email to: sboz@para-inc.com, Subject: Order Confirmation
+      05-21-2015 11:30:01 - ORDER:    OrderCreate End... True5/21/2015 11:30:01 AM
+
+      05-21-2015 11:30:01 - ORDER:    Closing Connection
+      05-21-2015 11:30:01 - ORDER:    OrderID = 82632
+      05-21-2015 11:30:01 - ORDER:    OrderCreate >> Success ? True
+
+      05-21-2015 11:31:04 - ORDER:    OrderCreate Start...  
+      05-21-2015 11:31:04 - ORDER:      Base Order Start...
+      05-21-2015 11:31:04 - ORDER:        Base Variables Loaded...
+      05-21-2015 11:31:04 - ORDER:      Connected...
+      05-21-2015 11:31:04 - ORDER:      Access Code ID:  388
+      05-21-2015 11:31:04 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 388, '5/21/2015 11:31:04 AM', '', 'Darryel', 'Picou', 'picou@pioneer-eclipse.com', 71, '', 2.5, 250, 10, 120, 120, 0, '', 'Pioneer', '2951 Marina Bay Dr. Ste, 130-534', '', 'League City', 'TX', '77573', 'United States', 'Darryel', 'Picou','5/21/2015 11:31:04 AM','2b1522bc-b13d-4c35-a4f3-857863fd6ba0', '3305555555', '', 'False') 
+      05-21-2015 11:31:04 - ORDER:          Message:    Successful Execute
+      05-21-2015 11:31:04 - ORDER:      Reading Order ID...  388 AND 5/21/2015 11:31:04 AM
+      05-21-2015 11:31:04 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 388) AND (TempGUID = '2b1522bc-b13d-4c35-a4f3-857863fd6ba0'))
+      05-21-2015 11:31:04 - ORDER:        Located Order ID...  82633
+      05-21-2015 11:31:04 - ORDER:        Order ID:  82633
+      05-21-2015 11:31:04 - ORDER:      Base Order End
+      05-21-2015 11:31:04 - ORDER:      Saving Custom Start...
+      05-21-2015 11:31:04 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      05-21-2015 11:31:04 - ORDER:      Saved Custom End True
+      05-21-2015 11:31:04 - ORDER:      Saving Items Start...
+      05-21-2015 11:31:04 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      05-21-2015 11:31:05 - ORDER:      Saved Items End True
+      05-21-2015 11:31:05 - ORDER:      Saving Kits Start...
+      05-21-2015 11:31:05 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      05-21-2015 11:31:05 - ORDER:      Saved Kits End True
+      05-21-2015 11:32:20 - ORDER:    SendMessage - trying to send email to: pat.marshall@pioneer-eclipse.com, Subject: Order Authorization Check
+      05-21-2015 11:32:38 - ORDER:    SendNewOrderAuthorizationNotifications for order# 82633
+      05-21-2015 11:32:38 - ORDER:      Send Auth Notifications -  Primary - strickland@pioneer-eclipse.com
+      05-21-2015 11:32:38 - ORDER:    SendMessage - trying to send email to: strickland@pioneer-eclipse.com, Subject: Order Authorization Check
+      05-21-2015 11:32:59 - ORDER:    Send Auth Notifications - Para Sales Contact - sboz@para-inc.com
+      05-21-2015 11:32:59 - ORDER:    SendMessage - trying to send email to: sboz@para-inc.com, Subject: Order Authorization Check
+      05-21-2015 11:33:20 - ORDER:      Requires Authorization:  True
+      05-21-2015 11:33:20 - ORDER:    SendMessage - trying to send email to: picou@pioneer-eclipse.com, Subject: Order Confirmation
+      05-21-2015 11:33:31 - ORDER:    SendNewOrderNotifications for order# 82633
+      05-21-2015 11:33:31 - ORDER:    SendNewOrderNotifications - Para Sales Contact - 
+      05-21-2015 11:33:31 - ORDER:    SendMessage - trying to send email to: sboz@para-inc.com, Subject: Order Confirmation
+      05-21-2015 11:33:53 - ORDER:    OrderCreate End... True5/21/2015 11:33:53 AM
+
+      05-21-2015 11:33:53 - ORDER:    Closing Connection
+      05-21-2015 11:33:53 - ORDER:    OrderID = 82633
+      05-21-2015 11:33:53 - ORDER:    OrderCreate >> Success ? True
+
+      05-21-2015 11:36:40 - ORDER:    OrderCreate Start...  
+      05-21-2015 11:36:40 - ORDER:      Base Order Start...
+      05-21-2015 11:36:40 - ORDER:        Base Variables Loaded...
+      05-21-2015 11:36:40 - ORDER:      Connected...
+      05-21-2015 11:36:40 - ORDER:      Access Code ID:  388
+      05-21-2015 11:36:40 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 388, '5/21/2015 11:36:40 AM', '', 'Darryel', 'Picou', 'picou@pioneer-eclipse.com', 71, '', 2.5, 250, 10, 120, 120, 0, '', 'Pioneer', '2951 Marina Bay Dr. Ste, 130-534', '', 'League City', 'TX', '77573', 'United States', 'Darryel', 'Picou','5/21/2015 11:36:40 AM','3a0b3587-01e8-4f9d-a8b9-9577784447d4', '3305555555', '', 'False') 
+      05-21-2015 11:36:40 - ORDER:          Message:    Successful Execute
+      05-21-2015 11:36:40 - ORDER:      Reading Order ID...  388 AND 5/21/2015 11:36:40 AM
+      05-21-2015 11:36:40 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 388) AND (TempGUID = '3a0b3587-01e8-4f9d-a8b9-9577784447d4'))
+      05-21-2015 11:36:40 - ORDER:        Located Order ID...  82634
+      05-21-2015 11:36:40 - ORDER:        Order ID:  82634
+      05-21-2015 11:36:40 - ORDER:      Base Order End
+      05-21-2015 11:36:40 - ORDER:      Saving Custom Start...
+      05-21-2015 11:36:40 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      05-21-2015 11:36:40 - ORDER:      Saved Custom End True
+      05-21-2015 11:36:40 - ORDER:      Saving Items Start...
+      05-21-2015 11:36:40 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      05-21-2015 11:36:40 - ORDER:      Saved Items End True
+      05-21-2015 11:36:40 - ORDER:      Saving Kits Start...
+      05-21-2015 11:36:40 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      05-21-2015 11:36:40 - ORDER:      Saved Kits End True
+      05-21-2015 11:36:41 - ORDER:      Requires Authorization:  False
+      05-21-2015 11:36:41 - ORDER:      Order Activated:  True
+      05-21-2015 11:36:41 - ORDER:    SendMessage - trying to send email to: picou@pioneer-eclipse.com, Subject: Order Confirmation
+      05-21-2015 11:36:44 - ORDER:    SendNewOrderNotifications for order# 82634
+      05-21-2015 11:36:44 - ORDER:    SendNewOrderNotifications - Para Sales Contact - 
+      05-21-2015 11:36:44 - ORDER:    SendMessage - trying to send email to: sboz@para-inc.com, Subject: Order Confirmation
+      05-21-2015 11:37:03 - ORDER:    OrderCreate End... True5/21/2015 11:37:03 AM
+
+      05-21-2015 11:37:03 - ORDER:    Closing Connection
+      05-21-2015 11:37:03 - ORDER:    OrderID = 82634
+      05-21-2015 11:37:03 - ORDER:    OrderCreate >> Success ? True
+

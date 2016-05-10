@@ -1,0 +1,163 @@
+      03-30-2015 02:17:45 - ORDER:    OrderCreate Start...  
+      03-30-2015 02:17:45 - ORDER:      Base Order Start...
+      03-30-2015 02:17:45 - ORDER:        Base Variables Loaded...
+      03-30-2015 02:17:45 - ORDER:      Connected...
+      03-30-2015 02:17:45 - ORDER:      Access Code ID:  466
+      03-30-2015 02:17:45 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 466, '3/30/2015 2:17:45 PM', '', 'Andy Bosworth', 'Bosworth', 'pabosworth@para-inc.com', 85, 'test', 2.5, 250, 10, 140, 140, 0, '', 'Paragraphics', '2800 Leemont', '', 'Canton', 'OH', '44709', 'United States', 'Robert', 'Breazeal','3/30/2015 2:17:45 PM','48b38383-723e-4ecc-aa73-80d6d966f184', '3305555555', '', 'False') 
+      03-30-2015 02:17:45 - ORDER:          Message:    Successful Execute
+      03-30-2015 02:17:45 - ORDER:      Reading Order ID...  466 AND 3/30/2015 2:17:45 PM
+      03-30-2015 02:17:45 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 466) AND (TempGUID = '48b38383-723e-4ecc-aa73-80d6d966f184'))
+      03-30-2015 02:17:45 - ORDER:        Located Order ID...  81471
+      03-30-2015 02:17:45 - ORDER:        Order ID:  81471
+      03-30-2015 02:17:45 - ORDER:      Base Order End
+      03-30-2015 02:17:45 - ORDER:      Saving Custom Start...
+      03-30-2015 02:17:45 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      03-30-2015 02:17:45 - ORDER:      Saved Custom End True
+      03-30-2015 02:17:45 - ORDER:      Saving Items Start...
+      03-30-2015 02:17:45 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      03-30-2015 02:17:45 - ORDER:      Saved Items End True
+      03-30-2015 02:17:45 - ORDER:      Saving Kits Start...
+      03-30-2015 02:17:45 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      03-30-2015 02:17:45 - ORDER:      Saved Kits End True
+      03-30-2015 02:17:46 - ORDER:      Requires Authorization:  False
+      03-30-2015 02:17:46 - ORDER:      Order Activated:  True
+      03-30-2015 02:17:46 - ORDER:    SendMessage - trying to send email to: pabosworth@para-inc.com, Subject: Order Confirmation
+      03-30-2015 02:18:24 - ORDER:      ActivateDownloadableItems Email text...<table><tr><td>You have requested the following digital files from the Paragraphics Customer Service collateral fulfillment site. Please click on the links below and follow all appropriate directions to retrieve your files. Note that these links will only remain active for a period of 48 hours from the time your request was placed.</td></tr></table><table><tr><th>GEA 31407e DNLD</th></tr><tr><td><a href="http://www.para-inc.com/POSN/ordReviewLanding.aspx?RNUMB=81471&id=90bcb4eb-8b7e-4ccf-9cd5-457eea190845&fid=12">e Brochure</a></td></tr></table>
+      03-30-2015 02:18:24 - ORDER:    SendMessage - trying to send email to: pabosworth@para-inc.com, Subject: Request Number 81471
+      03-30-2015 02:18:45 - ORDER:    SendNewOrderNotifications for order# 81471
+      03-30-2015 02:18:45 - ORDER:    OrderCreate End... True3/30/2015 2:18:45 PM
+
+      03-30-2015 02:18:45 - ORDER:    Closing Connection
+      03-30-2015 02:18:45 - ORDER:    OrderID = 81471
+      03-30-2015 02:18:45 - ORDER:    OrderCreate >> Success ? True
+
+      03-30-2015 02:51:39 - ORDER:    OrderCreate Start...  
+      03-30-2015 02:51:39 - ORDER:      Base Order Start...
+      03-30-2015 02:51:39 - ORDER:        Base Variables Loaded...
+      03-30-2015 02:51:39 - ORDER:      Connected...
+      03-30-2015 02:51:39 - ORDER:      Access Code ID:  466
+      03-30-2015 02:51:39 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 466, '3/30/2015 2:51:39 PM', '', 'Andy Bosworth', 'Bosworth', 'pabosworth@para-inc.com', 85, '', 2.5, 250, 10, 140, 140, 0, '', 'Paragraphics', '2800 Leemont', '', 'Canton', 'OH', '44709', 'United States', 'Robert', 'Breazeal','3/30/2015 2:51:39 PM','6e4ea394-5299-4adf-b77b-5cda8efb9e7c', '3305555555', '', 'False') 
+      03-30-2015 02:51:39 - ORDER:          Message:    Successful Execute
+      03-30-2015 02:51:39 - ORDER:      Reading Order ID...  466 AND 3/30/2015 2:51:39 PM
+      03-30-2015 02:51:39 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 466) AND (TempGUID = '6e4ea394-5299-4adf-b77b-5cda8efb9e7c'))
+      03-30-2015 02:51:39 - ORDER:        Located Order ID...  81472
+      03-30-2015 02:51:39 - ORDER:        Order ID:  81472
+      03-30-2015 02:51:39 - ORDER:      Base Order End
+      03-30-2015 02:51:39 - ORDER:      Saving Custom Start...
+      03-30-2015 02:51:39 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      03-30-2015 02:51:39 - ORDER:      Saved Custom End True
+      03-30-2015 02:51:39 - ORDER:      Saving Items Start...
+      03-30-2015 02:51:39 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      03-30-2015 02:51:39 - ORDER:      Saved Items End True
+      03-30-2015 02:51:39 - ORDER:      Saving Kits Start...
+      03-30-2015 02:51:39 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      03-30-2015 02:51:39 - ORDER:      Saved Kits End True
+      03-30-2015 02:51:39 - ORDER:      Requires Authorization:  False
+      03-30-2015 02:51:39 - ORDER:      Order Activated:  True
+      03-30-2015 02:51:39 - ORDER:    SendMessage - trying to send email to: pabosworth@para-inc.com, Subject: Order Confirmation
+      03-30-2015 02:52:19 - ORDER:      ActivateDownloadableItems Email text...<table><tr><td>You have requested the following digital files from the Paragraphics Customer Service collateral fulfillment site. Please click on the links below and follow all appropriate directions to retrieve your files. Note that these links will only remain active for a period of 48 hours from the time your request was placed.</td></tr></table><table><tr><th>GEA 31407e DNLD</th></tr><tr><td><a href="http://www.para-inc.com/POSN/ordReviewLanding.aspx?RNUMB=81472&id=df78ae1c-3d34-408c-b7d7-e5d9d5ed24a4&fid=12">e Brochure</a></td></tr></table>
+      03-30-2015 02:52:19 - ORDER:    SendMessage - trying to send email to: pabosworth@para-inc.com, Subject: Request Number 81472
+      03-30-2015 02:52:40 - ORDER:    SendNewOrderNotifications for order# 81472
+      03-30-2015 02:52:40 - ORDER:    OrderCreate End... True3/30/2015 2:52:40 PM
+
+      03-30-2015 02:52:40 - ORDER:    Closing Connection
+      03-30-2015 02:52:40 - ORDER:    OrderID = 81472
+      03-30-2015 02:52:40 - ORDER:    OrderCreate >> Success ? True
+
+      03-30-2015 02:54:26 - ORDER:    OrderCreate Start...  
+      03-30-2015 02:54:26 - ORDER:      Base Order Start...
+      03-30-2015 02:54:26 - ORDER:        Base Variables Loaded...
+      03-30-2015 02:54:26 - ORDER:      Connected...
+      03-30-2015 02:54:26 - ORDER:      Access Code ID:  466
+      03-30-2015 02:54:26 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 466, '3/30/2015 2:54:26 PM', '', 'Andy Bosworth', 'Bosworth', 'pabosworth@para-inc.com', 85, '', 2.5, 250, 10, 140, 140, 0, '', 'Paragraphics', '2800 Leemont', '', 'Canton', 'OH', '44709', 'United States', 'Robert', 'Breazeal','3/30/2015 2:54:26 PM','d7283f2b-5241-4aae-ab8c-294450cab317', '3305555555', '', 'False') 
+      03-30-2015 02:54:26 - ORDER:          Message:    Successful Execute
+      03-30-2015 02:54:26 - ORDER:      Reading Order ID...  466 AND 3/30/2015 2:54:26 PM
+      03-30-2015 02:54:26 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 466) AND (TempGUID = 'd7283f2b-5241-4aae-ab8c-294450cab317'))
+      03-30-2015 02:54:27 - ORDER:        Located Order ID...  81473
+      03-30-2015 02:54:27 - ORDER:        Order ID:  81473
+      03-30-2015 02:54:27 - ORDER:      Base Order End
+      03-30-2015 02:54:27 - ORDER:      Saving Custom Start...
+      03-30-2015 02:54:27 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      03-30-2015 02:54:27 - ORDER:      Saved Custom End True
+      03-30-2015 02:54:27 - ORDER:      Saving Items Start...
+      03-30-2015 02:54:27 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      03-30-2015 02:54:27 - ORDER:      Saved Items End True
+      03-30-2015 02:54:27 - ORDER:      Saving Kits Start...
+      03-30-2015 02:54:27 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      03-30-2015 02:54:27 - ORDER:      Saved Kits End True
+      03-30-2015 02:54:27 - ORDER:      Requires Authorization:  False
+      03-30-2015 02:54:27 - ORDER:      Order Activated:  True
+      03-30-2015 02:54:27 - ORDER:    SendMessage - trying to send email to: pabosworth@para-inc.com, Subject: Order Confirmation
+      03-30-2015 02:55:13 - ORDER:      ActivateDownloadableItems Email text...<table><tr><td>You have requested the following digital files from the Paragraphics Customer Service collateral fulfillment site. Please click on the links below and follow all appropriate directions to retrieve your files. Note that these links will only remain active for a period of 48 hours from the time your request was placed.</td></tr></table><table><tr><th>GEA 31407e DNLD</th></tr><tr><td><a href="http://www.para-inc.com/POSN/ordReviewLanding.aspx?RNUMB=81473&id=41a37166-3013-4aa6-a2f8-40e4891b92ce&fid=12">e Brochure</a></td></tr></table>
+      03-30-2015 02:55:13 - ORDER:    SendMessage - trying to send email to: pabosworth@para-inc.com, Subject: Request Number 81473
+      03-30-2015 02:55:59 - ORDER:    SendNewOrderNotifications for order# 81473
+      03-30-2015 02:55:59 - ORDER:    OrderCreate End... True3/30/2015 2:55:59 PM
+
+      03-30-2015 02:55:59 - ORDER:    Closing Connection
+      03-30-2015 02:55:59 - ORDER:    OrderID = 81473
+      03-30-2015 02:55:59 - ORDER:    OrderCreate >> Success ? True
+
+      03-30-2015 02:57:44 - ORDER:    OrderCreate Start...  
+      03-30-2015 02:57:44 - ORDER:      Base Order Start...
+      03-30-2015 02:57:44 - ORDER:        Base Variables Loaded...
+      03-30-2015 02:57:44 - ORDER:      Connected...
+      03-30-2015 02:57:44 - ORDER:      Access Code ID:  466
+      03-30-2015 02:57:44 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 466, '3/30/2015 2:57:44 PM', '', 'Andy Bosworth', 'Bosworth', 'pabosworth@para-inc.com', 85, '', 2.5, 250, 10, 140, 140, 0, '', 'Paragraphics', '2800 Leemont', '', 'Canton', 'OH', '44709', 'United States', 'Robert', 'Breazeal','3/30/2015 2:57:44 PM','4403b533-c425-4525-bebf-6130d3949981', '3305555555', '', 'False') 
+      03-30-2015 02:57:44 - ORDER:          Message:    Successful Execute
+      03-30-2015 02:57:44 - ORDER:      Reading Order ID...  466 AND 3/30/2015 2:57:44 PM
+      03-30-2015 02:57:44 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 466) AND (TempGUID = '4403b533-c425-4525-bebf-6130d3949981'))
+      03-30-2015 02:57:44 - ORDER:        Located Order ID...  81474
+      03-30-2015 02:57:44 - ORDER:        Order ID:  81474
+      03-30-2015 02:57:44 - ORDER:      Base Order End
+      03-30-2015 02:57:44 - ORDER:      Saving Custom Start...
+      03-30-2015 02:57:44 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      03-30-2015 02:57:44 - ORDER:      Saved Custom End True
+      03-30-2015 02:57:44 - ORDER:      Saving Items Start...
+      03-30-2015 02:57:44 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      03-30-2015 02:57:45 - ORDER:      Saved Items End True
+      03-30-2015 02:57:45 - ORDER:      Saving Kits Start...
+      03-30-2015 02:57:45 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      03-30-2015 02:57:45 - ORDER:      Saved Kits End True
+      03-30-2015 02:57:45 - ORDER:      Requires Authorization:  False
+      03-30-2015 02:57:45 - ORDER:      Order Activated:  True
+      03-30-2015 02:57:45 - ORDER:    SendMessage - trying to send email to: pabosworth@para-inc.com, Subject: Order Confirmation
+      03-30-2015 02:58:06 - ORDER:      ActivateDownloadableItems Email text...<table><tr><td>You have requested the following digital files from the Paragraphics Customer Service collateral fulfillment site. Please click on the links below and follow all appropriate directions to retrieve your files. Note that these links will only remain active for a period of 48 hours from the time your request was placed.</td></tr></table><table><tr><th>GEA 31407e DNLD</th></tr><tr><td><a href="http://www.para-inc.com/POSN/ordReviewLanding.aspx?RNUMB=81474&id=5f2b566d-0d7c-4cd3-828b-7661615d45dc&fid=12">e Brochure</a></td></tr></table>
+      03-30-2015 02:58:06 - ORDER:    SendMessage - trying to send email to: pabosworth@para-inc.com, Subject: Request Number 81474
+      03-30-2015 02:58:28 - ORDER:    SendNewOrderNotifications for order# 81474
+      03-30-2015 02:58:28 - ORDER:    OrderCreate End... True3/30/2015 2:58:28 PM
+
+      03-30-2015 02:58:28 - ORDER:    Closing Connection
+      03-30-2015 02:58:28 - ORDER:    OrderID = 81474
+      03-30-2015 02:58:28 - ORDER:    OrderCreate >> Success ? True
+
+      03-30-2015 03:09:02 - ORDER:    OrderCreate Start...  
+      03-30-2015 03:09:02 - ORDER:      Base Order Start...
+      03-30-2015 03:09:02 - ORDER:        Base Variables Loaded...
+      03-30-2015 03:09:02 - ORDER:      Connected...
+      03-30-2015 03:09:02 - ORDER:      Access Code ID:  466
+      03-30-2015 03:09:02 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 466, '3/30/2015 3:09:02 PM', '', 'Andy Bosworth', 'Bosworth', 'pabosworth@para-inc.com', 85, '', 2.5, 250, 10, 140, 140, 0, '', 'Paragraphics', '2800 Leemont', '', 'Canton', 'OH', '44709', 'Thailand', 'Robert', 'Breazeal','3/30/2015 3:09:02 PM','5944c88d-591d-4e38-842a-1149145b7cd3', '3305555555', '', 'False') 
+      03-30-2015 03:09:02 - ORDER:          Message:    Successful Execute
+      03-30-2015 03:09:02 - ORDER:      Reading Order ID...  466 AND 3/30/2015 3:09:02 PM
+      03-30-2015 03:09:02 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 466) AND (TempGUID = '5944c88d-591d-4e38-842a-1149145b7cd3'))
+      03-30-2015 03:09:02 - ORDER:        Located Order ID...  81475
+      03-30-2015 03:09:02 - ORDER:        Order ID:  81475
+      03-30-2015 03:09:02 - ORDER:      Base Order End
+      03-30-2015 03:09:02 - ORDER:      Saving Custom Start...
+      03-30-2015 03:09:02 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      03-30-2015 03:09:02 - ORDER:      Saved Custom End True
+      03-30-2015 03:09:02 - ORDER:      Saving Items Start...
+      03-30-2015 03:09:02 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      03-30-2015 03:09:02 - ORDER:      Saved Items End True
+      03-30-2015 03:09:02 - ORDER:      Saving Kits Start...
+      03-30-2015 03:09:02 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      03-30-2015 03:09:02 - ORDER:      Saved Kits End True
+      03-30-2015 03:09:02 - ORDER:      Requires Authorization:  False
+      03-30-2015 03:09:03 - ORDER:      Order Activated:  True
+      03-30-2015 03:09:03 - ORDER:    SendMessage - trying to send email to: pabosworth@para-inc.com, Subject: Order Confirmation
+      03-30-2015 03:09:24 - ORDER:    SendNewOrderNotifications for order# 81475
+      03-30-2015 03:09:24 - ORDER:    OrderCreate End... True3/30/2015 3:09:24 PM
+
+      03-30-2015 03:09:24 - ORDER:    Closing Connection
+      03-30-2015 03:09:24 - ORDER:    OrderID = 81475
+      03-30-2015 03:09:24 - ORDER:    OrderCreate >> Success ? True
+

@@ -1,0 +1,28 @@
+
+      Error at 3/30/2015 4:13:06 PM
+           Msg:  The value '' of the ValueToCompare property of 'vMaxQty' cannot be converted to type 'Integer'.
+           Src:  System.Web
+        StkTrc:     at System.Web.UI.WebControls.CompareValidator.ControlPropertiesValid()
+   at System.Web.UI.WebControls.BaseValidator.get_PropertiesValid()
+   at System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  
+
+
+      Error at 3/30/2015 4:13:30 PM
+           Msg:  The value '' of the ValueToCompare property of 'vMaxQty' cannot be converted to type 'Integer'.
+           Src:  System.Web
+        StkTrc:     at System.Web.UI.WebControls.CompareValidator.ControlPropertiesValid()
+   at System.Web.UI.WebControls.BaseValidator.get_PropertiesValid()
+   at System.Web.UI.WebControls.BaseValidator.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  
+

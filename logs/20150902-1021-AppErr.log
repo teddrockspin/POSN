@@ -1,0 +1,14 @@
+
+      Error at 9/2/2015 10:21:39 AM
+           Msg:  Column 'ItmID' does not belong to table KitCart.
+           Src:  System.Data
+        StkTrc:     at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POSN.paraOrder.CheckForDownloadOnly(DataTable rcd) in C:\Para\POSNSQL\paraOrder.vb:line 3910
+   at POSN.OrdShp.Page_Load(Object sender, EventArgs e) in C:\Para\POSNSQL\OrdShp.aspx.vb:line 116
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  
+

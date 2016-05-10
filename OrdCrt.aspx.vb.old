@@ -1,0 +1,900 @@
+''''''''''''''''''''
+'mw - 08-12-2008
+'mw - 05-23-2008
+''''''''''''''''''''
+
+
+Imports System.Text
+
+Public Class OrdCrt
+
+  Inherits paraPageBase
+
+#Region " Web Form Designer Generated Code "
+
+  'This call is required by the Web Form Designer.
+  <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+
+  End Sub
+
+  Protected WithEvents lblTitle As System.Web.UI.WebControls.Label
+  Protected WithEvents Div1 As System.Web.UI.HtmlControls.HtmlGenericControl
+  Protected WithEvents pnlKit As System.Web.UI.WebControls.Panel
+  Protected WithEvents tblIQty As System.Web.UI.WebControls.Table
+  Protected WithEvents tblKQty As System.Web.UI.WebControls.Table
+  Protected WithEvents tblIUp As System.Web.UI.WebControls.Table
+  Protected WithEvents tblKUp As System.Web.UI.WebControls.Table
+  Protected WithEvents cmdUpdateItem As System.Web.UI.WebControls.ImageButton
+  Protected WithEvents cmdUpdateKit As System.Web.UI.WebControls.ImageButton
+  Protected WithEvents cmdItem As System.Web.UI.WebControls.ImageButton
+  Protected WithEvents cmdKit As System.Web.UI.WebControls.ImageButton
+  Protected WithEvents cmdNext As System.Web.UI.WebControls.ImageButton
+  Protected WithEvents cmdShop As System.Web.UI.WebControls.ImageButton
+  Protected WithEvents lblLILim As System.Web.UI.WebControls.Label
+  Protected WithEvents lblLIReq As System.Web.UI.WebControls.Label
+  Protected WithEvents lblORLim As System.Web.UI.WebControls.Label
+  Protected WithEvents lblORReq As System.Web.UI.WebControls.Label
+  Protected WithEvents lblLI As System.Web.UI.WebControls.Label
+  Protected WithEvents lblOR As System.Web.UI.WebControls.Label
+  Protected WithEvents frmOrdCrt As System.Web.UI.HtmlControls.HtmlForm
+  Protected WithEvents Label1 As System.Web.UI.WebControls.Label
+  Protected WithEvents cmdSubmit As System.Web.UI.WebControls.ImageButton
+  Protected WithEvents tlbITtl As System.Web.UI.WebControls.Table
+  Protected WithEvents tblKTtl As System.Web.UI.WebControls.Table
+  Protected WithEvents tblITtl As System.Web.UI.WebControls.Table
+  Protected WithEvents txtSubmit As System.Web.UI.WebControls.TextBox
+
+  'NOTE: The following placeholder declaration is required by the Web Form Designer.
+  'Do not delete or move it.
+  Private designerPlaceholderDeclaration As System.Object
+
+  Private Sub Page_Init(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Init
+    'CODEGEN: This method call is required by the Web Form Designer
+    'Do not modify it using the code editor.
+    InitializeComponent()
+
+    MyBase.Page_Init(sender, e)
+    LoadData()
+  End Sub
+
+#End Region
+
+  Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+    PageTitle = "Shopping Cart"
+    'MyBase.Page_Load(sender, e)
+    'MyBase.PageMessage = "Adjust quantities or remove an item, then click update.  Click Checkout to proced with the order."
+    MyBase.PageMessage = "Adjust quantities or remove an item, then click update.  Click Continue with Checkout to proceed with the order."
+
+    'If (MyBase.UState = MyBase.MyData.STATE_LoggedOut) Then
+    If (MyBase.CurrentUser.State = MyBase.MyData.STATE_LoggedOut) Then
+      'If (MyBase.UState = MyBase.MyData.STATE_None) Then
+      MyBase.PageDirect()
+    End If
+
+    If (Page.IsPostBack = False) Then
+      MyBase.CurrentUser.CurrentPage = Request.Url.AbsoluteUri.ToString
+
+      MyBase.CurrentOrder.VisitMark(MyBase.MyData.PRO_CRT)
+      If (MyBase.CurrentOrder.VisitAll = True) Then
+        Dim pScript As New StringBuilder
+        'mw - 06-18-2008 - go directly to submit, if ready
+        'pScript.Append("<script>" & _
+        '"function CheckSubmit () " & _
+        '"{ " & _
+        '"  if (confirm('Do you wish to attempt to submit the current order at this time?') == true)" & _
+        '"  {  document.frmOrdCrt.txtSubmit.value='Y';}" & _
+        '"  else " & _
+        '"  {  document.frmOrdCrt.txtSubmit.value='N';}" & _
+        '"  return true;" & _
+        '"} " & _
+        '"</script>")
+        pScript.Append("<script>" & _
+        "function CheckSubmit () " & _
+        "{ " & _
+        "  document.frmOrdCrt.txtSubmit.value='Y';" & _
+        "  return true;" & _
+        "} " & _
+        "</script>")
+        Me.RegisterStartupScript("Startup", pScript.ToString)
+        cmdNext.Attributes.Add("onclick", "return CheckSubmit(); ")
+      End If
+    End If 'End PostBack
+  End Sub
+
+  Private Function LoadData() As Boolean
+    Dim objDT As System.Data.DataTable
+    Dim bSuccess As Boolean = False
+
+    Try
+      LoadControls()
+      '      objDT = MyBase.CurrentOrder.ItmCart
+      '      grd.DataSource = objDT
+      '      grd.DataBind()
+      '
+      '      objDT = Nothing
+      bSuccess = True
+    Catch ex As Exception
+      Session("PMsg") = "Unable to Load Data..."
+    End Try
+
+    Return (bSuccess)
+  End Function
+
+  Private Function LoadControls() As Boolean
+    Dim bRequiresLI As Boolean = False
+    Dim bRequiresOR As Boolean = False
+
+    LoadItems()
+    If (MyBase.CurrentUser.CanViewKits = True) Then
+      LoadKits()
+    End If
+    LoadNotes()
+    cmdKit.Visible = (MyBase.CurrentUser.CanViewKits = True)
+    tblKTtl.Visible = (MyBase.CurrentUser.CanViewKits = True)
+    tblKQty.Visible = (MyBase.CurrentUser.CanViewKits = True)
+    tblKUp.Visible = (MyBase.CurrentUser.CanViewKits = True)
+
+    ''Authorization Note...
+    'With MyBase.CurrentOrder
+    '  .CurrentAuthorizationStatus(bRequiresLI, bRequiresOR)
+    '  If (bRequiresLI) Then
+    '    lblLI.Text = "Your order is limited to " & .MaxQtyPerLineItem & " pieces per line item."
+    '  Else
+    '    lblLI.Text = "Requesting more than " & .MaxQtyPerLineItem & " pieces per line item will require authorization."
+    '  End If
+    '  If (bRequiresOR) Then
+    '    lblOR.Text = "Your order is limited to " & .MaxQtyPerOrder & " total pieces."
+    '  Else
+    '    lblOR.Text = "Requesting more than " & .MaxQtyPerOrder & " total pieces per order will require authorization."
+    '  End If
+    'End With
+  End Function
+
+  Private Function LoadItems() As Boolean
+    Dim tRow As TableRow
+    Dim tCell As TableCell
+    Dim lLabel As New Label
+    Dim tText As New TextBox
+    '    Dim cCbo As New DropDownList
+    Dim vCmp As New CompareValidator
+    Dim cChk As New CheckBox
+    Dim sValID As String
+    Dim bButton As ImageButton
+
+    Dim rcd As System.Data.DataTable
+    Dim indx As Integer
+    Dim iMaxIndx As Integer
+    Dim bSuccess As Boolean = False
+
+    Dim sID As String
+    Dim sName As String
+    Dim sDesc As String
+    Dim sColor As String
+    Dim lQty As Long
+    Dim sQty As String = String.Empty
+
+    tblITtl.Rows.Clear()
+    tblIQty.Rows.Clear()
+
+    rcd = MyBase.CurrentOrder.ItmCart
+    iMaxIndx = rcd.Rows.Count
+    indx = 0
+
+    'Title
+    'No Items Selected
+    tRow = New TableRow
+    tCell = New TableCell
+    tCell.HorizontalAlign = HorizontalAlign.Center
+    tCell.VerticalAlign = VerticalAlign.Middle
+    tCell.ColumnSpan = 6
+    lLabel = New Label
+    lLabel.CssClass = "lblTitle"
+    lLabel.ID = "lblITitle"
+    If (iMaxIndx = 0) Then
+      lLabel.Text = "No Items Selected"
+    Else
+      lLabel.Text = "Items Selected"
+    End If
+    tCell.Controls.Add(lLabel)
+    tRow.Cells.Add(tCell)
+    'tblIQty.Rows.Add(tRow)
+    tblITtl.Rows.Add(tRow)
+
+    'Space
+    tRow = New TableRow
+    tCell = New TableCell
+    tCell.Text = "&nbsp;"
+    tRow.Cells.Add(tCell)
+    'tblIQty.Rows.Add(tRow)
+    tblITtl.Rows.Add(tRow)
+
+    'Remove - Label
+    If (iMaxIndx > 0) Then
+      tRow = New TableRow
+      tCell = New TableCell : tRow.Cells.Add(tCell)
+      tCell = New TableCell : tRow.Cells.Add(tCell)
+      tCell = New TableCell : tRow.Cells.Add(tCell)
+      tCell = New TableCell : tRow.Cells.Add(tCell)
+      tCell = New TableCell
+      tCell.HorizontalAlign = HorizontalAlign.Center
+      tCell.VerticalAlign = VerticalAlign.Middle
+      lLabel = New Label
+      lLabel.CssClass = "lblTitle"
+      lLabel.ID = "lblIRemove"
+      lLabel.Text = "Remove"
+      tCell.Controls.Add(lLabel)
+      tRow.Cells.Add(tCell)
+      tblIQty.Rows.Add(tRow)
+    End If
+
+    Do While indx < iMaxIndx
+      With rcd.Rows(indx)
+        sID = .Item("ItmID").ToString()
+        sName = .Item("ItmName").ToString()
+        sDesc = .Item("ItmDesc").ToString()
+        sColor = .Item("ItmColor").ToString()
+        'MyBase.MyData.GetItmDetail(MyBase.CurrentUser.CustomerID, sID, sName, sDesc)
+        lQty = Val(.Item("ItmQty").ToString())
+      End With
+      tRow = New TableRow
+
+      'ID - 0
+      tCell = New TableCell
+      tCell.Visible = False
+      tCell.Text = sID
+      tRow.Cells.Add(tCell)
+
+      'Label - 1
+      tCell = New TableCell
+      tCell.HorizontalAlign = HorizontalAlign.Left
+      tCell.VerticalAlign = VerticalAlign.Middle
+      lLabel = New Label
+      If (InStr(sColor, MyData.COLOR_INACTIVE) > 0) Then
+        lLabel.CssClass = "lblXLongInActive"
+      ElseIf (InStr(sColor, MyData.COLOR_BACK) > 0) Then
+        lLabel.CssClass = "lblXLongBack"
+      Else
+        lLabel.CssClass = "lblXLong"
+      End If
+      lLabel.ID = "lblI" & indx
+      lLabel.Text = sName & " : " & sDesc
+      tCell.Controls.Add(lLabel)
+      tRow.Cells.Add(tCell)
+
+      'Textbox - 2
+      tCell = New TableCell
+      tCell.HorizontalAlign = HorizontalAlign.Right
+      tCell.VerticalAlign = VerticalAlign.Middle
+      sValID = "txtI" & indx
+      tText = New TextBox
+      tText.CssClass = "txtNumber"
+      tText.ID = sValID
+      tText.Text = lQty
+      tText.MaxLength = 9
+      tCell.Controls.Add(tText)
+      tRow.Cells.Add(tCell)
+
+      'Validator - 3
+      If (MyBase.CurrentUser.CanExtendQtyLI) Then
+        'sQty = 1000
+        'sQty = 32767
+        sQty = 100000000
+      Else
+        sQty = MyBase.CurrentOrder.MaxQtyPerLineItem
+      End If
+      tCell = New TableCell
+      vCmp = New CompareValidator
+      vCmp.ID = "vI" & indx
+      vCmp.ControlToValidate = sValID
+      vCmp.Display = ValidatorDisplay.Dynamic
+      vCmp.ErrorMessage = "Quantity cannot exceed " & sQty '"*"
+      vCmp.Operator = ValidationCompareOperator.LessThanEqual
+      vCmp.Type = ValidationDataType.Integer
+      vCmp.ValueToCompare = sQty
+      vCmp.CssClass = "lblInactive"
+      tCell.Controls.Add(vCmp)
+      tRow.Cells.Add(tCell)
+
+      'Space - 4
+      tCell = New TableCell
+      tCell.Text = "&nbsp"
+      tRow.Cells.Add(tCell)
+
+      'Checkbox - 5
+      tCell = New TableCell
+      tCell.HorizontalAlign = HorizontalAlign.Center
+      tCell.VerticalAlign = VerticalAlign.Middle
+      cChk = New CheckBox
+      cChk.ID = "chkI" & indx
+      tCell.Controls.Add(cChk)
+      tRow.Cells.Add(tCell)
+
+      'Space - 6
+      tCell = New TableCell
+      tCell.Text = "&nbsp"
+      tRow.Cells.Add(tCell)
+
+      tblIQty.Rows.Add(tRow)
+
+      indx = indx + 1
+    Loop
+
+    'Space
+    tRow = New TableRow
+    tCell = New TableCell
+    tCell.Text = "&nbsp;"
+    tRow.Cells.Add(tCell)
+    tblIQty.Rows.Add(tRow)
+
+    ''Button
+    'tRow = New TableRow
+    'tCell = New TableCell
+    'tCell.HorizontalAlign = HorizontalAlign.Center
+    'tCell.VerticalAlign = VerticalAlign.Middle
+    'tCell.ColumnSpan = 6
+    'bButton = New ImageButton
+    'bButton.ID = "cmdUpdateItem"
+    'bButton.ToolTip = "Save Information and Proceed with Order"
+    'bButton.ImageUrl = "images/btnUpdate.png"
+    'tCell.Controls.Add(bButton)
+    'tRow.Cells.Add(tCell)
+    'tblIQty.Rows.Add(tRow)
+    '
+    ''Space
+    'tRow = New TableRow
+    'tCell = New TableCell
+    'tCell.Text = "&nbsp;"
+    'tRow.Cells.Add(tCell)
+    'tblIQty.Rows.Add(tRow)
+
+    cmdUpdateItem.Visible = (iMaxIndx > 0)
+
+    bSuccess = True
+    Return (bSuccess)
+  End Function
+
+  Private Function LoadKits() As Boolean
+    Dim tRow As TableRow
+    Dim tCell As TableCell
+    Dim lLabel As New Label
+    Dim tText As New TextBox
+    Dim cCbo As New DropDownList
+    Dim vCmp As New CompareValidator
+    Dim cChk As New CheckBox
+    Dim sValID As String
+    Dim bButton As ImageButton
+
+    Dim rcd As System.Data.DataTable
+    Dim indx As Integer
+    Dim iMaxIndx As Integer
+    Dim bSuccess As Boolean = False
+
+    Dim sID As String
+    Dim sName As String
+    Dim sDesc As String
+    Dim sColor As String
+    Dim lQty As Long
+    Dim sQty As String = String.Empty
+
+    tblKTtl.Rows.Clear()
+    tblKQty.Rows.Clear()
+
+    rcd = MyBase.CurrentOrder.KitCart
+    iMaxIndx = rcd.Rows.Count
+    indx = 0
+
+    'Title
+    tRow = New TableRow
+    tCell = New TableCell
+    tCell.HorizontalAlign = HorizontalAlign.Center
+    tCell.VerticalAlign = VerticalAlign.Middle
+    tCell.ColumnSpan = 6
+    lLabel = New Label
+    lLabel.CssClass = "lblTitle"
+    lLabel.ID = "lblKTitle"
+    If (iMaxIndx = 0) Then
+      'No Kits Selected
+      lLabel.Text = "No Kits Selected"
+    Else
+      lLabel.Text = "Kits Selected"
+    End If
+    tCell.Controls.Add(lLabel)
+    tRow.Cells.Add(tCell)
+    'tblKQty.Rows.Add(tRow)
+    tblKTtl.Rows.Add(tRow)
+
+    'Space
+    tRow = New TableRow
+    tCell = New TableCell
+    tCell.Text = "&nbsp;"
+    tRow.Cells.Add(tCell)
+    'tblKQty.Rows.Add(tRow)
+    tblKTtl.Rows.Add(tRow)
+
+    'Remove - Label
+    If (iMaxIndx > 0) Then
+      tRow = New TableRow
+      tCell = New TableCell : tRow.Cells.Add(tCell)
+      tCell = New TableCell : tRow.Cells.Add(tCell)
+      tCell = New TableCell : tRow.Cells.Add(tCell)
+      tCell = New TableCell : tRow.Cells.Add(tCell)
+      tCell = New TableCell
+      tCell.HorizontalAlign = HorizontalAlign.Center
+      tCell.VerticalAlign = VerticalAlign.Middle
+      lLabel = New Label
+      lLabel.CssClass = "lblTitle"
+      lLabel.ID = "lblKRemove"
+      lLabel.Text = "Remove"
+      tCell.Controls.Add(lLabel)
+      tRow.Cells.Add(tCell)
+      tblKQty.Rows.Add(tRow)
+    End If
+
+    Do While indx < iMaxIndx
+      With rcd.Rows(indx)
+        sID = .Item("KitID").ToString()
+        sName = .Item("KitName").ToString()
+        sDesc = .Item("KitDesc").ToString()
+        sColor = .Item("KitColor").ToString()
+        'MyBase.MyData.GetKitDetail(MyBase.CurrentUser.CustomerID, Val(sID), sName, sDesc)
+        lQty = Val(.Item("KitQty").ToString())
+      End With
+      tRow = New TableRow
+
+      'ID - 0
+      tCell = New TableCell
+      tCell.Visible = False
+      tCell.Text = sID
+      tRow.Cells.Add(tCell)
+
+      'Label - 1
+      tCell = New TableCell
+      tCell.HorizontalAlign = HorizontalAlign.Left
+      tCell.VerticalAlign = VerticalAlign.Middle
+      lLabel = New Label
+      If (InStr(sColor, MyData.COLOR_INACTIVE) > 0) Then
+        lLabel.CssClass = "lblXLongInActive"
+      ElseIf (InStr(sColor, MyData.COLOR_BACK) > 0) Then
+        lLabel.CssClass = "lblXLongBack"
+      Else
+        lLabel.CssClass = "lblXLong"
+      End If
+      lLabel.ID = "lblK" & indx
+      lLabel.Text = sName & " : " & sDesc
+      tCell.Controls.Add(lLabel)
+      tRow.Cells.Add(tCell)
+
+      'Textbox - 2
+      tCell = New TableCell
+      tCell.HorizontalAlign = HorizontalAlign.Right
+      tCell.VerticalAlign = VerticalAlign.Middle
+      sValID = "txtK" & indx
+      tText = New TextBox
+      tText.CssClass = "txtNumber"
+      tText.ID = sValID
+      tText.Text = lQty
+      tText.MaxLength = 5
+      tCell.Controls.Add(tText)
+      tRow.Cells.Add(tCell)
+
+      'Validator - 3
+      If (MyBase.CurrentUser.CanExtendQtyLI) Then
+        'sQty = 1000
+        sQty = 32767
+      Else
+        sQty = MyBase.CurrentOrder.MaxQtyPerLineItem
+      End If
+      tCell = New TableCell
+      vCmp = New CompareValidator
+      vCmp.ID = "vK" & indx
+      vCmp.ControlToValidate = sValID
+      vCmp.Display = ValidatorDisplay.Dynamic
+      vCmp.ErrorMessage = "Quantity cannot exceed " & sQty '"*"
+      vCmp.Operator = ValidationCompareOperator.LessThanEqual
+      vCmp.Type = ValidationDataType.Integer
+      vCmp.ValueToCompare = sQty
+      vCmp.CssClass = "lblInactive"
+      tCell.Controls.Add(vCmp)
+      tRow.Cells.Add(tCell)
+
+      'Space - 4
+      tCell = New TableCell
+      tCell.Text = "&nbsp"
+      tRow.Cells.Add(tCell)
+
+      'Checkbox - 5
+      tCell = New TableCell
+      tCell.HorizontalAlign = HorizontalAlign.Center
+      tCell.VerticalAlign = VerticalAlign.Middle
+      cChk = New CheckBox
+      cChk.ID = "chkK" & indx
+      tCell.Controls.Add(cChk)
+      tRow.Cells.Add(tCell)
+
+      'Space - 6
+      tCell = New TableCell
+      tCell.Text = "&nbsp"
+      tRow.Cells.Add(tCell)
+
+      tblKQty.Rows.Add(tRow)
+
+      indx = indx + 1
+    Loop
+
+    'Space
+    tRow = New TableRow
+    tCell = New TableCell
+    tCell.Text = "&nbsp;"
+    tRow.Cells.Add(tCell)
+    tblKQty.Rows.Add(tRow)
+
+    ''Button
+    'tRow = New TableRow
+    'tCell = New TableCell
+    'tCell.HorizontalAlign = HorizontalAlign.Center
+    'tCell.VerticalAlign = VerticalAlign.Middle
+    'tCell.ColumnSpan = 6
+    'bButton = New ImageButton
+    'bButton.ID = "cmdUpdateKit"
+    'bButton.ToolTip = "Save Information and Proceed with Order"
+    'bButton.ImageUrl = "images/btnUpdate.png"
+    'tCell.Controls.Add(bButton)
+    'tRow.Cells.Add(tCell)
+    'tblKQty.Rows.Add(tRow)
+    '
+    ''Space
+    'tRow = New TableRow
+    'tCell = New TableCell
+    'tCell.Text = "&nbsp;"
+    'tRow.Cells.Add(tCell)
+    'tblKQty.Rows.Add(tRow)
+
+    cmdUpdateKit.Visible = (iMaxIndx > 0)
+
+    bSuccess = True
+    Return (bSuccess)
+  End Function
+
+  Private Sub LoadNotes()
+    Dim bRequiresLI As Boolean = False
+    Dim bRequiresOR As Boolean = False
+
+    'Authorization Note...
+    With MyBase.CurrentOrder
+      .CurrentAuthorizationStatus(bRequiresLI, bRequiresOR)
+      If (bRequiresLI) Then
+        lblLI.Text = "Requesting a quantity greater than " & .MaxQtyPerLineItem & " per line will require authorization."
+      Else
+        lblLI.Text = "Your order is limited to " & .MaxQtyPerLineItem & " pieces per line item."
+      End If
+      If (bRequiresOR) Then
+        lblOR.Text = "Requesting a total quantity greater than " & .MaxQtyPerOrder & " per order will require authorization."
+      Else
+        lblOR.Text = "Your order is limited to " & .MaxQtyPerOrder & " total pieces."
+      End If
+    End With
+  End Sub
+
+  Private Function ValidItemData() As Boolean
+    Const COL_ID = 0
+    Const COL_LAB = 1
+    Const COL_QTY = 2
+    Const COL_CHK = 5
+
+    Dim bValid As Boolean = False
+    Dim sMsg As String = String.Empty
+
+    'Dim rcd As System.Data.DataTable
+    Dim indx As Integer
+    Dim iMaxIndx As Integer
+
+    Dim lID As Long
+    Dim sDesc As String
+    Dim lQty As Long
+    Dim lLabel As Label
+    Dim tText As TextBox
+    Dim cChk As CheckBox
+
+    Try
+      bValid = True
+
+      If bValid Then
+        iMaxIndx = tblIQty.Rows.Count
+        indx = 0
+        Do While indx < iMaxIndx
+          lID = 0
+          lQty = 0
+
+          With tblIQty.Rows(indx)
+            lID = Val(.Cells(COL_ID).Text)
+            If (lID > 0) Then
+              lLabel = .Cells(COL_LAB).Controls(0)
+              sDesc = lLabel.Text
+              tText = .Cells(COL_QTY).Controls(0)
+              lQty = Val(tText.Text)
+              cChk = .Cells(COL_CHK).Controls(0)
+              If (cChk.Checked = True) Then lQty = 0
+              ''TO DO.....
+              '            If (iQty > MyBase.CurrentOrder.MaxQtyPerLineItem) Then
+              '              bValid = False
+              '            End If
+              '            If Not bValid Then sMsg = sDesc & " is greater than max qty per line item..."
+
+            End If
+          End With
+          indx = indx + 1
+        Loop
+      End If
+
+    Catch ex As Exception
+      MyBase.PageMessage = "Error attempting to Validate Item Data..."
+    End Try
+
+    If Not bValid Then MyBase.PageMessage = sMsg
+    Return (bValid)
+  End Function
+
+  Private Function SaveItemData() As Boolean
+    Const COL_ID = 0
+    Const COL_LAB = 1
+    Const COL_QTY = 2
+    Const COL_CHK = 5
+
+    Dim rcd As System.Data.DataTable
+    Dim indx As Integer
+    Dim iMaxIndx As Integer
+
+    Dim lID As Int32
+    Dim sName As String
+    Dim sDesc As String
+    Dim lQty As Long
+    Dim sTmp As String
+    Dim ipos As Integer
+    Dim tText As TextBox
+    Dim cChk As CheckBox
+
+    Dim bSuccess As Boolean = False
+
+    Try
+      'Note:  Could change saving...
+      ' to completely remove DataTable.Rows and add all new DataTable.Rows
+      iMaxIndx = tblIQty.Rows.Count
+      indx = 0
+      Do While indx < iMaxIndx
+        lID = 0
+        sName = ""
+        sDesc = ""
+        lQty = 0
+
+        With tblIQty.Rows(indx)
+          lID = Val(.Cells(COL_ID).Text)
+          If (lID > 0) Then
+            tText = .Cells(COL_QTY).Controls(0)
+            lQty = Val(tText.Text)
+            cChk = .Cells(COL_CHK).Controls(0)
+            If (cChk.Checked = True) Then lQty = 0 '.Visible = False
+            MyBase.CurrentOrder.ItmSave(lQty, lID, sName, sDesc)
+          End If
+          indx = indx + 1
+        End With
+      Loop
+      MyBase.SessionStore("OrdItm")
+
+      bSuccess = True
+
+    Catch ex As Exception
+      MyBase.PageMessage = "Error attempting to Save Item Data..."
+    End Try
+
+    Return (bSuccess)
+  End Function
+
+  Private Function ValidKitData() As Boolean
+    Const COL_ID = 0
+    Const COL_LAB = 1
+    Const COL_QTY = 2
+    Const COL_CHK = 5
+
+    Dim bValid As Boolean = False
+    Dim sMsg As String = String.Empty
+
+    'Dim rcd As System.Data.DataTable
+    Dim indx As Integer
+    Dim iMaxIndx As Integer
+
+    Dim lID As Long
+    Dim sDesc As String
+    Dim lQty As Long
+    Dim lLabel As Label
+    Dim tText As TextBox
+    Dim cChk As CheckBox
+
+    Try
+      bValid = True
+
+      If bValid Then
+        iMaxIndx = tblKQty.Rows.Count
+        indx = 0
+        Do While indx < iMaxIndx
+          lID = 0
+          lQty = 0
+
+          With tblKQty.Rows(indx)
+            lID = Val(.Cells(COL_ID).Text)
+            If (lID > 0) Then
+              lLabel = .Cells(COL_LAB).Controls(0)
+              sDesc = lLabel.Text
+              tText = .Cells(COL_QTY).Controls(0)
+              lQty = Val(tText.Text)
+              cChk = .Cells(COL_CHK).Controls(0)
+              If (cChk.Checked = True) Then lQty = 0
+              ''TO DO.....
+              '            If (iQty > MyBase.CurrentOrder.MaxQtyPerLineItem) Then
+              '              bValid = False
+              '            End If
+              '            If Not bValid Then sMsg = sDesc & " is greater than max qty per line item..."
+
+            End If
+          End With
+          indx = indx + 1
+        Loop
+      End If
+
+    Catch ex As Exception
+      MyBase.PageMessage = "Error attempting to Validate Kit Data..."
+    End Try
+
+    If Not bValid Then MyBase.PageMessage = sMsg
+    Return (bValid)
+  End Function
+
+  Private Function SaveKitData() As Boolean
+    Const COL_ID = 0
+    Const COL_LAB = 1
+    Const COL_QTY = 2
+    Const COL_CHK = 5
+
+    Dim rcd As System.Data.DataTable
+    Dim indx As Integer
+    Dim iMaxIndx As Integer
+
+    Dim lID As Int32
+    Dim sName As String
+    Dim sDesc As String
+    Dim lQty As Long
+    Dim sTmp As String
+    Dim ipos As Integer
+    Dim tText As TextBox
+    Dim cChk As CheckBox
+
+    Dim bSuccess As Boolean = False
+
+    Try
+      'Note:  Could change saving...
+      ' to completely remove DataTable.Rows and add all new DataTable.Rows
+      iMaxIndx = tblKQty.Rows.Count
+      indx = 0
+      Do While indx < iMaxIndx
+        lID = 0
+        sName = ""
+        sDesc = ""
+        lQty = 0
+
+        With tblKQty.Rows(indx)
+          lID = Val(.Cells(COL_ID).Text)
+          If (lID > 0) Then
+            tText = .Cells(COL_QTY).Controls(0)
+            lQty = Val(tText.Text)
+            cChk = .Cells(COL_CHK).Controls(0)
+            If (cChk.Checked = True) Then lQty = 0
+            MyBase.CurrentOrder.KitSave(lQty, lID, sName, sDesc)
+          End If
+        End With
+        indx = indx + 1
+      Loop
+      MyBase.SessionStore("OrdKit")
+
+      bSuccess = True
+
+    Catch ex As Exception
+      MyBase.PageMessage = "Error attempting to Save Kit Data..."
+    End Try
+
+    Return (bSuccess)
+    'Dim rcd As System.Data.DataTable
+    'Dim indx As Integer
+    'Dim iMaxIndx As Integer
+
+    'Dim lID As Int32
+    'Dim sName As String
+    'Dim sDesc As String
+    'Dim iQty As Integer
+    'Dim sTmp As String
+    'Dim ipos As Integer
+    'Dim tText As TextBox
+
+    'Dim bSuccess As Boolean = False
+
+    'Try
+    '  'Note:  Could change saving...
+    '  ' to completely remove DataTable.Rows and add all new DataTable.Rows
+    '  iMaxIndx = tblKQty.Rows.Count
+    '  indx = 0
+    '  Do While indx < iMaxIndx
+    '    lID = 0
+    '    sName = ""
+    '    sDesc = ""
+    '    iQty = 0
+
+    '    With tblKQty.Rows(indx)
+    '      lID = Val(.Cells(0).Text)
+
+    '      tText = .Cells(1).Controls(0)
+    '      iQty = Val(tText.Text)
+
+    '      MyBase.CurrentOrder.KitSave(iQty, lID, sName, sDesc)
+    '    End With
+    '    indx = indx + 1
+    '  Loop
+    '  MyBase.SessionStore("OrdKit")
+
+    '  bSuccess = True
+
+    'Catch ex As Exception
+    '  MyBase.PageMessage = "Error attempting to Save Kit Data..."
+    'End Try
+
+    'Return (bSuccess)
+  End Function
+
+  Private Overloads Sub cmdUpdateItem_Click(ByVal sender As System.Object, ByVal e As System.Web.UI.ImageClickEventArgs) Handles cmdUpdateItem.Click
+    If ValidItemData() Then
+      SaveItemData()
+      LoadItems()
+      LoadNotes()
+    End If
+  End Sub
+
+  Private Overloads Sub cmdUpdateKit_Click(ByVal sender As System.Object, ByVal e As System.Web.UI.ImageClickEventArgs) Handles cmdUpdateKit.Click
+    If ValidKitData() Then
+      SaveKitData()
+      LoadKits()
+      LoadNotes()
+    End If
+  End Sub
+
+
+  Private Overloads Sub cmdShop_Click(ByVal sender As System.Object, ByVal e As System.Web.UI.ImageClickEventArgs) Handles cmdShop.Click
+    Dim sDestin As String = paraPageBase.PAG_OrdItemSelect.ToString()
+    MyBase.PageDirect(sDestin, 0, 0)
+  End Sub
+
+  Private Overloads Sub cmdItem_Click(ByVal sender As System.Object, ByVal e As System.Web.UI.ImageClickEventArgs) Handles cmdItem.Click
+    Dim sDestin As String = paraPageBase.PAG_OrdItemSelect.ToString()
+    MyBase.PageDirect(sDestin, 0, 0)
+  End Sub
+
+  Private Sub cmdKit_Click(ByVal sender As System.Object, ByVal e As System.Web.UI.ImageClickEventArgs) Handles cmdKit.Click
+    Dim sDestin As String = paraPageBase.PAG_OrdKitSelect.ToString()
+    MyBase.PageDirect(sDestin, 0, 0)
+  End Sub
+
+  Private Overloads Sub cmdNext_Click(ByVal sender As System.Object, ByVal e As System.Web.UI.ImageClickEventArgs) Handles cmdNext.Click
+    Dim sDestin As String = paraPageBase.PAG_OrdRequest.ToString()
+    'Dim sDestin As String = paraPageBase.PAG_OrdItemSelect.ToString()
+    ''MyBase.PageDirect(sDestin, 0, 0)
+
+    'If ValidData() Then
+    'SaveData()
+    If (txtSubmit.Text = "Y") Then
+      sDestin = paraPageBase.PAG_OrdSubmit.ToString()
+    End If
+    MyBase.PageDirect(sDestin, 0, 0)
+    'End If
+  End Sub
+
+  'Private Sub cmdSubmit_Click(ByVal sender As System.Object, ByVal e As System.Web.UI.ImageClickEventArgs) Handles cmdSubmit.Click
+  '  Dim sDestin As String = paraPageBase.PAG_OrdSubmit.ToString()
+  '  MyBase.PageDirect(sDestin, 0, 0)
+  'End Sub
+End Class

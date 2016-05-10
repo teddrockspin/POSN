@@ -1,0 +1,23 @@
+
+      Error at 3/3/2015 2:40:13 PM
+           Msg:  Control 'RadScriptManager1' of type 'RadScriptManager' must be placed inside a form tag with runat=server.
+           Src:  System.Web
+        StkTrc:     at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.PageWrapper.System.Web.UI.IPage.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.PageRequestManager.Render(HtmlTextWriter writer)
+   at System.Web.UI.ScriptManager.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at ASP.ordshp_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in C:\Para\POSNSQL\OrdShp.aspx:line 301
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at POSN.paraPageBase.Render(HtmlTextWriter writer) in C:\Para\POSNSQL\paraPageBase.vb:line 380
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  
+

@@ -1,0 +1,99 @@
+      10-13-2015 10:07:34 - ORDER:    OrderCreate Start...  
+      10-13-2015 10:07:35 - ORDER:      Base Order Start...
+      10-13-2015 10:07:35 - ORDER:        Base Variables Loaded...
+      10-13-2015 10:07:35 - ORDER:      Connected...
+      10-13-2015 10:07:35 - ORDER:      Access Code ID:  567
+      10-13-2015 10:07:37 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 567, '10/13/2015 10:07:35 PM', '', 'Ted', 'Demetro', 'ted@rmrdevelopment.com', 99, '', 0, 0, 10, 192, 192, 0, '', '', '300 East 2nd', '', 'dover', 'oh', '44622', 'United States', 'Ted', 'Demetro','10/13/2015 10:07:35 PM','20f70619-2ca2-4136-ab86-74ddaac190f0', '', '', 'False') 
+      10-13-2015 10:07:37 - ORDER:          Message:    Successful Execute
+      10-13-2015 10:07:37 - ORDER:      Reading Order ID...  567 AND 10/13/2015 10:07:35 PM
+      10-13-2015 10:07:37 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 567) AND (TempGUID = '20f70619-2ca2-4136-ab86-74ddaac190f0'))
+      10-13-2015 10:07:37 - ORDER:        Located Order ID...  85319
+      10-13-2015 10:07:38 - ORDER:        Order ID:  85319
+      10-13-2015 10:07:38 - ORDER:      Base Order End
+      10-13-2015 10:07:38 - ORDER:      Saving Custom Start...
+      10-13-2015 10:07:38 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      10-13-2015 10:07:38 - ORDER:      Saved Custom End True
+      10-13-2015 10:07:38 - ORDER:      Saving Items Start...
+      10-13-2015 10:07:38 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      10-13-2015 10:07:38 - ORDER:      Saved Items End True
+      10-13-2015 10:07:38 - ORDER:      Saving Kits Start...
+      10-13-2015 10:07:38 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      10-13-2015 10:07:38 - ORDER:      Saved Kits End True
+      10-13-2015 10:08:10 - ORDER:    SendMessage - trying to send email to: Becky.gibson@ge.com, Subject: Order Authorization Check
+      10-13-2015 10:08:31 - ORDER:    SendNewOrderAuthorizationNotifications for order# 85319
+      10-13-2015 10:08:31 - ORDER:      Requires Authorization:  True
+      10-13-2015 10:08:34 - ORDER:    SendMessage - trying to send email to: ted@rmrdevelopment.com, Subject: Order Confirmation
+      10-13-2015 10:08:56 - ORDER:      ActivateDownloadableItems Email text...<table><tr><td>You have requested the following digital files from the Howden collateral fulfillment site. Please click on the links below and follow all appropriate directions to retrieve your files. Note that these links will only remain active for a period of 48 hours from the time your request was placed.</td></tr></table><table><tr><th>B-Controls DNLD</th></tr><tr><td><a href="http://www.para-inc.com/POSN/ordReviewLanding.aspx?RNUMB=85319&id=b12f5be5-296f-44df-bc0b-db872ace04c3&fid=3">Low Res - Viewable / Office Printer</a></td></tr><tr><th>CAS_Waste DNLD</th></tr><tr><td><a href="http://www.para-inc.com/POSN/ordReviewLanding.aspx?RNUMB=85319&id=d7ec2727-dd4d-4817-845f-eb8067492bc6&fid=3">Low Res - Viewable / Office Printer</a></td></tr></table>
+      10-13-2015 10:08:56 - ORDER:    SendMessage - trying to send email to: ted@rmrdevelopment.com, Subject: Request Number 85319
+      10-13-2015 10:09:50 - ORDER:    SendNewOrderNotifications for order# 85319
+      10-13-2015 10:09:50 - ORDER:    OrderCreate End... True10/13/2015 10:09:50 PM
+
+      10-13-2015 10:09:50 - ORDER:    Closing Connection
+      10-13-2015 10:09:50 - ORDER:    OrderID = 85319
+      10-13-2015 10:09:50 - ORDER:    OrderCreate >> Success ? True
+
+      10-13-2015 10:13:38 - ORDER:    OrderCreate Start...  
+      10-13-2015 10:13:38 - ORDER:      Base Order Start...
+      10-13-2015 10:13:38 - ORDER:        Base Variables Loaded...
+      10-13-2015 10:13:38 - ORDER:      Connected...
+      10-13-2015 10:13:38 - ORDER:      Access Code ID:  567
+      10-13-2015 10:13:38 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 567, '10/13/2015 10:13:38 PM', '', 'Ted', 'Demetro', 'ted@rmrdevelopment.com', 99, 'Packing List', 0, 0, 10, 196, 196, 0, '', '', 'N/A', '', 'N/A', 'N/A', 'N/A', 'N/A', 'Ted', 'Demetro','10/13/2015 10:13:38 PM','b4b77dbd-5504-4d6b-92f8-0a13998bbbc7', '', '', 'False') 
+      10-13-2015 10:13:38 - ORDER:          Message:    Successful Execute
+      10-13-2015 10:13:38 - ORDER:      Reading Order ID...  567 AND 10/13/2015 10:13:38 PM
+      10-13-2015 10:13:38 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 567) AND (TempGUID = 'b4b77dbd-5504-4d6b-92f8-0a13998bbbc7'))
+      10-13-2015 10:13:38 - ORDER:        Located Order ID...  85320
+      10-13-2015 10:13:38 - ORDER:        Order ID:  85320
+      10-13-2015 10:13:38 - ORDER:      Base Order End
+      10-13-2015 10:13:38 - ORDER:      Saving Custom Start...
+      10-13-2015 10:13:38 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      10-13-2015 10:13:38 - ORDER:      Saved Custom End True
+      10-13-2015 10:13:38 - ORDER:      Saving Items Start...
+      10-13-2015 10:13:38 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      10-13-2015 10:13:39 - ORDER:      Saved Items End True
+      10-13-2015 10:13:39 - ORDER:      Saving Kits Start...
+      10-13-2015 10:13:39 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      10-13-2015 10:13:39 - ORDER:      Saved Kits End True
+      10-13-2015 10:14:07 - ORDER:      Requires Authorization:  False
+      10-13-2015 10:14:07 - ORDER:      Order Activated:  True
+      10-13-2015 10:14:08 - ORDER:    SendMessage - trying to send email to: ted@rmrdevelopment.com, Subject: Order Confirmation
+      10-13-2015 10:14:29 - ORDER:      ActivateDownloadableItems Email text...<table><tr><td>You have requested the following digital files from the Howden collateral fulfillment site. Please click on the links below and follow all appropriate directions to retrieve your files. Note that these links will only remain active for a period of 48 hours from the time your request was placed.</td></tr></table><table><tr><th>B-Controls DNLD</th></tr><tr><td><a href="http://www.para-inc.com/POSN/ordReviewLanding.aspx?RNUMB=85320&id=b77cdcde-4d79-46d3-aa6d-e3cb67917f00&fid=3">Low Res - Viewable / Office Printer</a></td></tr><tr><th>CAS_Waste DNLD</th></tr><tr><td><a href="http://www.para-inc.com/POSN/ordReviewLanding.aspx?RNUMB=85320&id=4cf55116-ce69-4900-a2af-235d34b55558&fid=3">Low Res - Viewable / Office Printer</a></td></tr></table>
+      10-13-2015 10:14:29 - ORDER:    SendMessage - trying to send email to: ted@rmrdevelopment.com, Subject: Request Number 85320
+      10-13-2015 10:14:50 - ORDER:    SendNewOrderNotifications for order# 85320
+      10-13-2015 10:14:50 - ORDER:    OrderCreate End... True10/13/2015 10:14:50 PM
+
+      10-13-2015 10:14:50 - ORDER:    Closing Connection
+      10-13-2015 10:14:50 - ORDER:    OrderID = 85320
+      10-13-2015 10:14:50 - ORDER:    OrderCreate >> Success ? True
+
+      10-13-2015 10:17:08 - ORDER:    OrderCreate Start...  
+      10-13-2015 10:17:08 - ORDER:      Base Order Start...
+      10-13-2015 10:17:08 - ORDER:        Base Variables Loaded...
+      10-13-2015 10:17:08 - ORDER:      Connected...
+      10-13-2015 10:17:08 - ORDER:      Access Code ID:  567
+      10-13-2015 10:17:08 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 567, '10/13/2015 10:17:08 PM', '', 'Ted', 'Demetro', 'ted@rmrdevelopment.com', 99, '', 2.5, 0, 10, 192, 192, 0, '', '', '300 East 2nd', '', 'dover', 'oh', '44622', 'United States', 'Ted', 'Demetro','10/13/2015 10:17:08 PM','faace884-4aa8-4e9a-a213-2cd47c76bcfe', '', '', 'False') 
+      10-13-2015 10:17:08 - ORDER:          Message:    Successful Execute
+      10-13-2015 10:17:08 - ORDER:      Reading Order ID...  567 AND 10/13/2015 10:17:08 PM
+      10-13-2015 10:17:08 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 567) AND (TempGUID = 'faace884-4aa8-4e9a-a213-2cd47c76bcfe'))
+      10-13-2015 10:17:08 - ORDER:        Located Order ID...  85321
+      10-13-2015 10:17:08 - ORDER:        Order ID:  85321
+      10-13-2015 10:17:08 - ORDER:      Base Order End
+      10-13-2015 10:17:08 - ORDER:      Saving Custom Start...
+      10-13-2015 10:17:08 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      10-13-2015 10:17:08 - ORDER:      Saved Custom End True
+      10-13-2015 10:17:08 - ORDER:      Saving Items Start...
+      10-13-2015 10:17:08 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      10-13-2015 10:17:09 - ORDER:      Saved Items End True
+      10-13-2015 10:17:09 - ORDER:      Saving Kits Start...
+      10-13-2015 10:17:09 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      10-13-2015 10:17:09 - ORDER:      Saved Kits End True
+      10-13-2015 10:17:23 - ORDER:    SendMessage - trying to send email to: Becky.gibson@ge.com, Subject: Order Authorization Check
+      10-13-2015 10:17:44 - ORDER:    SendNewOrderAuthorizationNotifications for order# 85321
+      10-13-2015 10:17:44 - ORDER:      Requires Authorization:  True
+      10-13-2015 10:17:44 - ORDER:    SendMessage - trying to send email to: ted@rmrdevelopment.com, Subject: Order Confirmation
+      10-13-2015 10:18:05 - ORDER:    SendNewOrderNotifications for order# 85321
+      10-13-2015 10:18:05 - ORDER:    OrderCreate End... True10/13/2015 10:18:05 PM
+
+      10-13-2015 10:18:05 - ORDER:    Closing Connection
+      10-13-2015 10:18:05 - ORDER:    OrderID = 85321
+      10-13-2015 10:18:05 - ORDER:    OrderCreate >> Success ? True
+

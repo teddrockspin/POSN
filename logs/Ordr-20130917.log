@@ -1,0 +1,31 @@
+      09-17-2013 09:09:59 - ORDER:    OrderCreate Start...  
+      09-17-2013 09:09:59 - ORDER:      Base Order Start...
+      09-17-2013 09:09:59 - ORDER:        Base Variables Loaded...
+      09-17-2013 09:09:59 - ORDER:      Connected...
+      09-17-2013 09:09:59 - ORDER:      Access Code ID:  256
+      09-17-2013 09:10:00 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 256, '9/17/2013 9:09:59 AM', '', 'steve', 'reidl', 'jeff@rmrdevelopment.com', 48, '', 2.5, 0, 10, 82, 82, 0, '', 'Para', 'N/A', '', 'N/A', 'N/A', 'N/A', 'United States', 'steve', 'reidl','9/17/2013 9:09:59 AM','09a28c0b-465e-4a48-b495-f79cd6285bc4', '1111111111', '', 'False') 
+      09-17-2013 09:10:00 - ORDER:          Message:    Successful Execute
+      09-17-2013 09:10:00 - ORDER:      Reading Order ID...  256 AND 9/17/2013 9:09:59 AM
+      09-17-2013 09:10:00 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 256) AND (TempGUID = '09a28c0b-465e-4a48-b495-f79cd6285bc4'))
+      09-17-2013 09:10:00 - ORDER:        Located Order ID...  64060
+      09-17-2013 09:10:00 - ORDER:        Order ID:  64060
+      09-17-2013 09:10:00 - ORDER:      Base Order End
+      09-17-2013 09:10:00 - ORDER:      Saving Custom Start...
+      09-17-2013 09:10:00 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      09-17-2013 09:10:00 - ORDER:      Saved Custom End True
+      09-17-2013 09:10:00 - ORDER:      Saving Items Start...
+      09-17-2013 09:10:00 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      09-17-2013 09:10:00 - ORDER:      Saved Items End True
+      09-17-2013 09:10:00 - ORDER:      Saving Kits Start...
+      09-17-2013 09:10:00 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      09-17-2013 09:10:00 - ORDER:      Saved Kits End True
+      09-17-2013 09:10:01 - ORDER:      Requires Authorization:  False
+      09-17-2013 09:10:01 - ORDER:      Order Activated:  True
+      09-17-2013 09:10:01 - ORDER:    SendMessage - trying to send email to: jeff@rmrdevelopment.com, Subject: Order Confirmation
+      09-17-2013 09:10:04 - ORDER:    SendNewOrderNotifications for order# 64060
+      09-17-2013 09:10:04 - ORDER:    OrderCreate End... True9/17/2013 9:10:04 AM
+
+      09-17-2013 09:10:04 - ORDER:    Closing Connection
+      09-17-2013 09:10:04 - ORDER:    OrderID = 64060
+      09-17-2013 09:10:04 - ORDER:    OrderCreate >> Success ? True
+

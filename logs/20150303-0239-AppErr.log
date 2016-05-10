@@ -1,0 +1,35 @@
+
+      Error at 3/3/2015 2:39:15 PM
+           Msg:  The control with ID 'RadDatePicker1' requires a ScriptManager on the page. The ScriptManager must appear before any controls that need it.
+           Src:  Telerik.Web.UI
+        StkTrc:     at Telerik.Web.UI.ScriptRegistrar.GetScriptManager(Control control)
+   at Telerik.Web.UI.RadWebControl.get_ScriptManager()
+   at Telerik.Web.UI.RadWebControl.RegisterScriptControl()
+   at Telerik.Web.UI.RadWebControl.ControlPreRender()
+   at Telerik.Web.UI.RadDatePicker.ControlPreRender()
+   at Telerik.Web.UI.RadWebControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  
+
+
+      Error at 3/3/2015 2:39:49 PM
+           Msg:  Unknown server tag 'telerik:ScriptManager'.
+           Src:  System.Web
+        StkTrc:     at System.Web.UI.TagPrefixTagNameToTypeMapper.System.Web.UI.ITagNameToTypeMapper.GetControlType(String tagName, IDictionary attribs)
+   at System.Web.UI.MainTagNameToTypeMapper.GetControlType2(String tagName, IDictionary attribs, Boolean fAllowHtmlTags)
+   at System.Web.UI.MainTagNameToTypeMapper.GetControlType(String tagName, IDictionary attribs, Boolean fAllowHtmlTags)
+   at System.Web.UI.RootBuilder.GetChildControlType(String tagName, IDictionary attribs)
+   at System.Web.UI.ControlBuilder.CreateChildBuilder(String filter, String tagName, IDictionary attribs, TemplateParser parser, ControlBuilder parentBuilder, String id, Int32 line, VirtualPath virtualPath, Type& childType, Boolean defaultProperty)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+        ReqFrm:  
+        ReqStr:  
+

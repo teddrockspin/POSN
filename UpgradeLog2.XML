@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="POSN">
+</Property><Property Name="Solution File" Value="C:\Users\Michael Reed\Documents\RMR Development\Paragraphics\POS\POS\POS\POSN.sln">
+</Property><Property Name="Date" Value="Monday, November 30, 2009">
+</Property><Property Name="Time" Value="16:16:22 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="POSN" Source="AdmKitE.aspx.vb.old" Description="backup file created">
+</Event><Event ErrorLevel="3" Project="POSN" Source="AdmKitE.aspx.vb" Description="Converted">
+</Event><Event ErrorLevel="0" Project="POSN" Source="Global.asax.vb.old" Description="backup file created">
+</Event><Event ErrorLevel="3" Project="POSN" Source="Global.asax.vb" Description="Converted">
+</Event><Event ErrorLevel="0" Project="POSN" Source="OrdCrt.aspx.vb.old" Description="backup file created">
+</Event><Event ErrorLevel="3" Project="POSN" Source="OrdCrt.aspx.vb" Description="Converted">
+</Event><Event ErrorLevel="1" Project="POSN" Source="WebForm1.aspx.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="POSN" Source="WebForm1.aspx.vb" Description="Not Converted">
+</Event><Event ErrorLevel="3" Project="POSN" Source="POSN.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="POSN" Source="POSN.vbproj" Description="You have completed the first step in converting your Visual Studio .NET 2003 web project. To complete the conversion, please select your project in the Solution Explorer and choose the 'Convert to Web Application' context menu item.">
+</Event></UpgradeLog>

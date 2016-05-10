@@ -1,0 +1,19 @@
+
+      Error at 7/24/2015 10:19:09 AM
+           Msg:  Object reference not set to an instance of an object.
+           Src:  POS
+        StkTrc:     at POSN.AdmRSP.CurrentSort(Int32 indx) in C:\Para\POSNSQL\AdmRsp.aspx.vb:line 83
+   at POSN.AdmRSP.BuildSQL() in C:\Para\POSNSQL\AdmRsp.aspx.vb:line 193
+   at POSN.AdmRSP.LoadDetail() in C:\Para\POSNSQL\AdmRsp.aspx.vb:line 866
+   at POSN.AdmRSP.LoadControls() in C:\Para\POSNSQL\AdmRsp.aspx.vb:line 338
+   at POSN.AdmRSP.LoadData() in C:\Para\POSNSQL\AdmRsp.aspx.vb:line 159
+   at POSN.AdmRSP.cmdRefresh_Click(Object sender, ImageClickEventArgs e) in C:\Para\POSNSQL\AdmRsp.aspx.vb:line 1981
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  __VIEWSTATE=%2fwEPDwUKMTE3MDIxNDg1NWQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgMFCmNtZFJlZnJlc2gFDGNoa0V4WmVyb1F0eQUIY21kUHJpbnTjcmbjKuN8k6H4Dz6FZO%2bLrT7Sdw%3d%3d&__VIEWSTATEGENERATOR=883D57E1&__EVENTVALIDATION=%2fwEWDALM1%2bfhDgLKw7raDwL2xsf0CQLAkcfEBALJktnoCwLqmeX7AgLntZ7vDQL87%2fzEDgKupqjpAwLitbrvDQKl2JSUAgK7wOLwB0y6PpOcwRQYZBGomcazxjTgmGzG&txtDays=7&cmdRefresh.x=18&cmdRefresh.y=9&txtShowItems=1&txtRound=10&txtPartNo=&ddlStatusFilter=ALL&chkExZeroQty=on
+        ReqStr:  
+

@@ -1,0 +1,47 @@
+﻿  .tdStyle
+    {
+        width: 111px;
+    }
+    .pDetails
+    {
+        text-align: center;
+    }
+    .pButton
+    {
+        text-align: left;
+    }
+    .tdEdit
+    {
+        width: 150px;
+        text-align: right;
+    }
+    #divEditReviewOrder
+    {
+        height: 1184px;
+    }
+    .alert
+    {
+        margin: 3px;
+        width: 600px;
+    }
+    .entryfield
+    {
+        width: 150px;
+    }
+    .PagerView
+    {
+        font-size:small;
+        font-weight:bold;
+    }
+    .RowGrid
+    {
+    	background-color:Red;
+    }
+    .grdBody
+{
+	
+	
+	padding-top:20px !important;
+	padding-bottom:30px !important;
+	
+}

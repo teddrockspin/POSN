@@ -1,0 +1,13 @@
+
+      Error at 11/25/2013 2:22:17 PM
+           Msg:  Object reference not set to an instance of an object.
+           Src:  POS
+        StkTrc:     at POSN.OrdShp.GetSelectShipNote() in C:\Code\POSNSQL_2013\OrdShp.aspx.vb:line 817
+   at POSN.OrdShp.ChangePrefShip() in C:\Code\POSNSQL_2013\OrdShp.aspx.vb:line 977
+   at POSN.OrdShp.Page_Load(Object sender, EventArgs e) in C:\Code\POSNSQL_2013\OrdShp.aspx.vb:line 150
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  
+

@@ -1,0 +1,6183 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+POS
+</name>
+</assembly>
+<members>
+<member name="F:POSN.GetFile.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.frmKitSel">
+	<summary>
+frmKitSel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.hfShowStock">
+	<summary>
+hfShowStock control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.pnlK1">
+	<summary>
+pnlK1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.lblK1">
+	<summary>
+lblK1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.ibtnK1Select">
+	<summary>
+ibtnK1Select control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.grdK1">
+	<summary>
+grdK1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.ibtnRestart">
+	<summary>
+ibtnRestart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.ibtnGet">
+	<summary>
+ibtnGet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.imgCheck">
+	<summary>
+imgCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.lblSelect">
+	<summary>
+lblSelect control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.lblItem">
+	<summary>
+lblItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.grdItm">
+	<summary>
+grdItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.ibtnViewKit">
+	<summary>
+ibtnViewKit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.ibtnEditKit">
+	<summary>
+ibtnEditKit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.lblKitRef">
+	<summary>
+lblKitRef control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.lblKitDes">
+	<summary>
+lblKitDes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.lblKitNote">
+	<summary>
+lblKitNote control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.pnlBtnOrd">
+	<summary>
+pnlBtnOrd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.lblQtyOrd">
+	<summary>
+lblQtyOrd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.txtQtyOrd">
+	<summary>
+txtQtyOrd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.ibtnAddOrd">
+	<summary>
+ibtnAddOrd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.ibtnItmOrd">
+	<summary>
+ibtnItmOrd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.ibtnCartOrd">
+	<summary>
+ibtnCartOrd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.vMaxQty">
+	<summary>
+vMaxQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.txtItmRow">
+	<summary>
+txtItmRow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.txtItmSelCnt">
+	<summary>
+txtItmSelCnt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.txtItmSelFrom">
+	<summary>
+txtItmSelFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.ScrollXPosK1">
+	<summary>
+ScrollXPosK1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.ScrollXPosItm">
+	<summary>
+ScrollXPosItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.ScrollXPosDoc">
+	<summary>
+ScrollXPosDoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitSel.ScrollYPosDoc">
+	<summary>
+ScrollYPosDoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Login.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Login.frmMain">
+	<summary>
+frmMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Login.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Login.divMessage">
+	<summary>
+divMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Login.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Login.lblCustCode">
+	<summary>
+lblCustCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Login.txtCustCode">
+	<summary>
+txtCustCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Login.lblPwd">
+	<summary>
+lblPwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Login.txtPwd">
+	<summary>
+txtPwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Login.lblAccCode">
+	<summary>
+lblAccCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Login.txtAccCode">
+	<summary>
+txtAccCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Login.cmdNext">
+	<summary>
+cmdNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Login.btntestEmail">
+	<summary>
+btntestEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.frmOrdCrt">
+	<summary>
+frmOrdCrt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.hfShowStock">
+	<summary>
+hfShowStock control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.RadScriptManager1">
+	<summary>
+RadScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.lblLI">
+	<summary>
+lblLI control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.lblOR">
+	<summary>
+lblOR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.dUploadMessage">
+	<summary>
+dUploadMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.Radprogressmanager1">
+	<summary>
+Radprogressmanager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.ProgressArea1">
+	<summary>
+ProgressArea1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.tblITtl">
+	<summary>
+tblITtl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.tblIQty">
+	<summary>
+tblIQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.tblIUp">
+	<summary>
+tblIUp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.cmdUpdateItem">
+	<summary>
+cmdUpdateItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.tblDnlTtl">
+	<summary>
+tblDnlTtl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.tblDnlQty">
+	<summary>
+tblDnlQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.tblDnlUp">
+	<summary>
+tblDnlUp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.cmdUpdateItemDigital">
+	<summary>
+cmdUpdateItemDigital control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.tblKTtl">
+	<summary>
+tblKTtl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.tblKQty">
+	<summary>
+tblKQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.tblKUp">
+	<summary>
+tblKUp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.cmdUpdateKit">
+	<summary>
+cmdUpdateKit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.cmdItem">
+	<summary>
+cmdItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.cmdKit">
+	<summary>
+cmdKit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.cmdNext">
+	<summary>
+cmdNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.cmdEditBack">
+	<summary>
+cmdEditBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCrt.cmdSubmit">
+	<summary>
+cmdSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ordReviewLanding.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.videoHandler.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.frmAdmItmE">
+	<summary>
+frmAdmItmE control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblRefNo">
+	<summary>
+lblRefNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.txtRefNo">
+	<summary>
+txtRefNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblRefDesc">
+	<summary>
+lblRefDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.txtRefDesc">
+	<summary>
+txtRefDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblPrefix">
+	<summary>
+lblPrefix control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.txtPrefix">
+	<summary>
+txtPrefix control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblLastPurPrice">
+	<summary>
+lblLastPurPrice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.txtLastPurPrice">
+	<summary>
+txtLastPurPrice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.vLastPurPrice">
+	<summary>
+vLastPurPrice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.v2LastPurPrice">
+	<summary>
+v2LastPurPrice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblVendor">
+	<summary>
+lblVendor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.cboVendor">
+	<summary>
+cboVendor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblSchedObsDate">
+	<summary>
+lblSchedObsDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.txtSchedObsDate">
+	<summary>
+txtSchedObsDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.vSchedObsDate">
+	<summary>
+vSchedObsDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblWarnLevel">
+	<summary>
+lblWarnLevel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.txtWarnLevel">
+	<summary>
+txtWarnLevel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.vWarnLevel">
+	<summary>
+vWarnLevel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.v2WarnLevel">
+	<summary>
+v2WarnLevel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblOrderQuantityLimit0">
+	<summary>
+lblOrderQuantityLimit0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.chkNoOrderLimit">
+	<summary>
+chkNoOrderLimit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblOrderQuantityLimit">
+	<summary>
+lblOrderQuantityLimit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.txtOrderQuantityLimit">
+	<summary>
+txtOrderQuantityLimit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblItmType">
+	<summary>
+lblItmType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.cboItmType">
+	<summary>
+cboItmType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblAttr1">
+	<summary>
+lblAttr1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.cboAttr1">
+	<summary>
+cboAttr1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblAttr2">
+	<summary>
+lblAttr2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.cboAttr2">
+	<summary>
+cboAttr2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblAttr3">
+	<summary>
+lblAttr3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.cboAttr3">
+	<summary>
+cboAttr3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblAttr4">
+	<summary>
+lblAttr4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.cboAttr4">
+	<summary>
+cboAttr4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.lblAttr5">
+	<summary>
+lblAttr5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.txtAttr5">
+	<summary>
+txtAttr5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmItmE.cmdSave">
+	<summary>
+cmdSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.frmItmVw">
+	<summary>
+frmItmVw control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.pnlItm">
+	<summary>
+pnlItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.lblImgRef">
+	<summary>
+lblImgRef control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.lblImgDes">
+	<summary>
+lblImgDes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.imgItem">
+	<summary>
+imgItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.lblExtendedDescription">
+	<summary>
+lblExtendedDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.lkHigh">
+	<summary>
+lkHigh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.lblHighSize">
+	<summary>
+lblHighSize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.lkBase">
+	<summary>
+lkBase control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.lblBaseSize">
+	<summary>
+lblBaseSize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.lkLow">
+	<summary>
+lkLow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.lblLowSize">
+	<summary>
+lblLowSize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.panelDownload">
+	<summary>
+panelDownload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.rptDownloadables">
+	<summary>
+rptDownloadables control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.pnlNoItm">
+	<summary>
+pnlNoItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmVw.lblNoItm">
+	<summary>
+lblNoItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.frmOrdCst">
+	<summary>
+frmOrdCst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.tblCst">
+	<summary>
+tblCst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.lblCoverSheet">
+	<summary>
+lblCoverSheet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.cboCVID">
+	<summary>
+cboCVID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.lblCoverSheetR">
+	<summary>
+lblCoverSheetR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.lkCS">
+	<summary>
+lkCS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.lblCVText">
+	<summary>
+lblCVText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.txtCVText">
+	<summary>
+txtCVText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.txtItmRow">
+	<summary>
+txtItmRow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.cmdNext">
+	<summary>
+cmdNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdCst.cmdEditBack">
+	<summary>
+cmdEditBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvL.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvL.frmAdmInvL">
+	<summary>
+frmAdmInvL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvL.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvL.grd">
+	<summary>
+grd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvL.lblValue">
+	<summary>
+lblValue control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvL.cmdPrint">
+	<summary>
+cmdPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvL.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.frmAdmKitE">
+	<summary>
+frmAdmKitE control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.lblNoteTmp">
+	<summary>
+lblNoteTmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.lblCat">
+	<summary>
+lblCat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.cboCat">
+	<summary>
+cboCat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.lblRefNo">
+	<summary>
+lblRefNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.txtRefNo">
+	<summary>
+txtRefNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.vRefNo">
+	<summary>
+vRefNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.lblRefName">
+	<summary>
+lblRefName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.txtRefName">
+	<summary>
+txtRefName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.lblGlobal">
+	<summary>
+lblGlobal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.chkGlobal">
+	<summary>
+chkGlobal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.lblAbleToModify">
+	<summary>
+lblAbleToModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.chkEnModify">
+	<summary>
+chkEnModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.lblNote">
+	<summary>
+lblNote control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.txtNote">
+	<summary>
+txtNote control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.tblQty">
+	<summary>
+tblQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.lblNSeq">
+	<summary>
+lblNSeq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.cmdAdd">
+	<summary>
+cmdAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.txtQty">
+	<summary>
+txtQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.lblDQty">
+	<summary>
+lblDQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.cmdItem">
+	<summary>
+cmdItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.cmdDelete">
+	<summary>
+cmdDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitE.cmdSave">
+	<summary>
+cmdSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:POSN.dsLookup.LocalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsLookup.OverallDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsLookup.LocalTableShipToDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsLookup.OverallTableShipToDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsLookup.LocalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsLookup.OverallRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsLookup.LocalTableShipToRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsLookup.OverallTableShipToRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsLookup.LocalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsLookup.OverallRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsLookup.LocalTableShipToRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsLookup.OverallTableShipToRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsLookup">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:POSN.dsLookupTableAdapters.LocalTableBillToAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsLookupTableAdapters.OverallTableBillToAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsLookupTableAdapters.LocalTableShipToTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsLookupTableAdapters.OverallTableShipToTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:POSN.dsLookupTableAdapters.TableAdapterManager.UpdateUpdatedRows(POSN.dsLookup,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsLookupTableAdapters.TableAdapterManager.UpdateInsertedRows(POSN.dsLookup,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsLookupTableAdapters.TableAdapterManager.UpdateDeletedRows(POSN.dsLookup,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:POSN.dsLookupTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:POSN.dsLookupTableAdapters.TableAdapterManager.UpdateAll(POSN.dsLookup)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:POSN.dsLookupTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:POSN.dsLookupTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:POSN.dsLookupTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:POSN.OrdReq.frmOrdReq">
+	<summary>
+frmOrdReq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.tblCst">
+	<summary>
+tblCst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.cmdClear">
+	<summary>
+cmdClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.cmdSearch">
+	<summary>
+cmdSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.lblRqFName">
+	<summary>
+lblRqFName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.txtRqFName">
+	<summary>
+txtRqFName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.lblRqFNameR">
+	<summary>
+lblRqFNameR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.lblRqLName">
+	<summary>
+lblRqLName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.txtRqLName">
+	<summary>
+txtRqLName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.lblRqLNameR">
+	<summary>
+lblRqLNameR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.lblRqEmail">
+	<summary>
+lblRqEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.txtRqEmail">
+	<summary>
+txtRqEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.lblRqEmailR">
+	<summary>
+lblRqEmailR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.trConfirmEmail">
+	<summary>
+trConfirmEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.txtEmailConfirm">
+	<summary>
+txtEmailConfirm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.CompareValidator1">
+	<summary>
+CompareValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.rfval">
+	<summary>
+rfval control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.txtItmRow">
+	<summary>
+txtItmRow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.cmdNext">
+	<summary>
+cmdNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdReq.cmdEditBack">
+	<summary>
+cmdEditBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.hfCustomField">
+	<summary>
+hfCustomField control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.divGrid">
+	<summary>
+divGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.lblTest">
+	<summary>
+lblTest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.hfSort">
+	<summary>
+hfSort control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.hfSortField">
+	<summary>
+hfSortField control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.txtDate1">
+	<summary>
+txtDate1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.txtDate2">
+	<summary>
+txtDate2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.ddlAccessCode">
+	<summary>
+ddlAccessCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.ddlStatus">
+	<summary>
+ddlStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.btnGo">
+	<summary>
+btnGo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.grd">
+	<summary>
+grd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSummary.txtSelectedOrder">
+	<summary>
+txtSelectedOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.frmAdmRspP">
+	<summary>
+frmAdmRspP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.lblHead">
+	<summary>
+lblHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.lblDays">
+	<summary>
+lblDays control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.txtDays">
+	<summary>
+txtDays control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.lblDays2">
+	<summary>
+lblDays2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.lblRound">
+	<summary>
+lblRound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.txtRound">
+	<summary>
+txtRound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.lblFilterItmType">
+	<summary>
+lblFilterItmType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.txtItmType">
+	<summary>
+txtItmType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.txtItmTypeID">
+	<summary>
+txtItmTypeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.lblFilterPart">
+	<summary>
+lblFilterPart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.txtPartNo">
+	<summary>
+txtPartNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.lblExZero">
+	<summary>
+lblExZero control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.chkExZeroQty">
+	<summary>
+chkExZeroQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.lblSort">
+	<summary>
+lblSort control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.cboSort1">
+	<summary>
+cboSort1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.lblThen1">
+	<summary>
+lblThen1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.cboSort2">
+	<summary>
+cboSort2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.lblThen2">
+	<summary>
+lblThen2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.cboSort3">
+	<summary>
+cboSort3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.tblRsp">
+	<summary>
+tblRsp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.lblNote">
+	<summary>
+lblNote control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.lblNote2">
+	<summary>
+lblNote2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.lblTotCost">
+	<summary>
+lblTotCost control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.txtTotCost">
+	<summary>
+txtTotCost control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRspP.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:POSN.dsOrders.dsOrdersWithAccessCodesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.Customer_AccessCodeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.Customer_CoverSheetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.dsOrderDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.OrderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.dsOrderDetailsCustomDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.dsOrderKitDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.dtOrderCustomFieldsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.dtKitItemsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.ListsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.Customer_CustomFieldDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.Order_DocumentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.dtUsageByRefNumInOrdersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.Order_Document1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.Customer_Document_DownloadableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.Order_Document_DownloadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsOrders.dsOrdersWithAccessCodesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.Customer_AccessCodeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.Customer_CoverSheetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.dsOrderDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.OrderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.dsOrderDetailsCustomRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.dsOrderKitDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.dtOrderCustomFieldsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.dtKitItemsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.ListsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.Customer_CustomFieldRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.Order_DocumentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.dtUsageByRefNumInOrdersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.Order_Document1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.Customer_Document_DownloadableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.Order_Document_DownloadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsOrders.dsOrdersWithAccessCodesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.Customer_AccessCodeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.Customer_CoverSheetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.dsOrderDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.OrderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.dsOrderDetailsCustomRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.dsOrderKitDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.dtOrderCustomFieldsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.dtKitItemsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.ListsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.Customer_CustomFieldRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.Order_DocumentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.dtUsageByRefNumInOrdersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.Order_Document1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.Customer_Document_DownloadableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders.Order_Document_DownloadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsOrders">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.dsOrdersWithAccessCodesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.Customer_AccessCodeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.Customer_CoverSheetTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.dsOrderDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.DataTable1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.OrderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.dsOrderDetailsCustomTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.dsOrderKitDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.dtOrderCustomFieldsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.KitItemsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.ListsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.Customer_CustomFieldTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.Order_DocumentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.dtUsageByRefNumInOrdersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.Order_Document1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.Customer_Document_DownloadableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.Order_Document_DownloadTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:POSN.dsOrdersTableAdapters.TableAdapterManager.UpdateUpdatedRows(POSN.dsOrders,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsOrdersTableAdapters.TableAdapterManager.UpdateInsertedRows(POSN.dsOrders,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsOrdersTableAdapters.TableAdapterManager.UpdateDeletedRows(POSN.dsOrders,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:POSN.dsOrdersTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:POSN.dsOrdersTableAdapters.TableAdapterManager.UpdateAll(POSN.dsOrders)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:POSN.dsOrdersTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:POSN.dsAccessCodes.Customer_AccessCodeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsAccessCodes.Customer_AccessCode1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsAccessCodes.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsAccessCodes.Customer_AccessCodeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsAccessCodes.Customer_AccessCode1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsAccessCodes.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsAccessCodes.Customer_AccessCodeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsAccessCodes.Customer_AccessCode1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsAccessCodes.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsAccessCodes">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:POSN.dsAccessCodesTableAdapters.Customer_AccessCodeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsAccessCodesTableAdapters.Customer_AccessCode1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsAccessCodesTableAdapters.DataTable1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsAccessCodesTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:POSN.dsAccessCodesTableAdapters.TableAdapterManager.UpdateUpdatedRows(POSN.dsAccessCodes,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsAccessCodesTableAdapters.TableAdapterManager.UpdateInsertedRows(POSN.dsAccessCodes,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsAccessCodesTableAdapters.TableAdapterManager.UpdateDeletedRows(POSN.dsAccessCodes,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:POSN.dsAccessCodesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:POSN.dsAccessCodesTableAdapters.TableAdapterManager.UpdateAll(POSN.dsAccessCodes)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:POSN.dsAccessCodesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:POSN.dsAccessCodesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:POSN.dsAccessCodesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:POSN.dsDownloads.DownloadLogDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsDownloads.DownloadLogRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsDownloads.DownloadLogRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsDownloads">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:POSN.dsDownloadsTableAdapters.DownloadLogTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsDownloadsTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:POSN.dsDownloadsTableAdapters.TableAdapterManager.UpdateUpdatedRows(POSN.dsDownloads,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsDownloadsTableAdapters.TableAdapterManager.UpdateInsertedRows(POSN.dsDownloads,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsDownloadsTableAdapters.TableAdapterManager.UpdateDeletedRows(POSN.dsDownloads,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:POSN.dsDownloadsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:POSN.dsDownloadsTableAdapters.TableAdapterManager.UpdateAll(POSN.dsDownloads)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:POSN.dsDownloadsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:POSN.dsDownloadsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:POSN.dsDownloadsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:POSN.dev.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.dev.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.dev.grdItm">
+	<summary>
+grdItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.DownloadFile.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Logout.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Logout.frmLogout">
+	<summary>
+frmLogout control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Logout.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Logout.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:POSN.dsCustomer.CustomerStockWarningTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCustomer.Customer_MatchDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCustomer.CustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCustomer.Customer_CustomFields_SwitchDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCustomer.Customer_ShippingMethodDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCustomer.CustomerQuickOrderDLDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCustomer.CustomerStockWarningTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCustomer.Customer_MatchRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCustomer.CustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCustomer.Customer_CustomFields_SwitchRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCustomer.Customer_ShippingMethodRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCustomer.CustomerQuickOrderDLRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCustomer.CustomerStockWarningTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCustomer.Customer_MatchRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCustomer.CustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCustomer.Customer_CustomFields_SwitchRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCustomer.Customer_ShippingMethodRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCustomer.CustomerQuickOrderDLRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCustomer">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:POSN.dsCustomerTableAdapters.CustomerStockWarningTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCustomerTableAdapters.Customer_MatchTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCustomerTableAdapters.CustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCustomerTableAdapters.Customer_CustomFields_SwitchTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCustomerTableAdapters.Customer_ShippingMethodTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCustomerTableAdapters.CustomerQuickOrderDLTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCustomerTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:POSN.dsCustomerTableAdapters.TableAdapterManager.UpdateUpdatedRows(POSN.dsCustomer,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsCustomerTableAdapters.TableAdapterManager.UpdateInsertedRows(POSN.dsCustomer,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsCustomerTableAdapters.TableAdapterManager.UpdateDeletedRows(POSN.dsCustomer,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:POSN.dsCustomerTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:POSN.dsCustomerTableAdapters.TableAdapterManager.UpdateAll(POSN.dsCustomer)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:POSN.dsCustomerTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:POSN.dsCustomerTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:POSN.dsCustomerTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:POSN.dsNotifications.Customer_Notification_SettingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsNotifications.Notification_TypesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsNotifications.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsNotifications.Customer_Notification_SettingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsNotifications.Notification_TypesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsNotifications.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsNotifications.Customer_Notification_SettingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsNotifications.Notification_TypesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsNotifications.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsNotifications">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:POSN.dsNotificationsTableAdapters.Customer_Notification_SettingsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsNotificationsTableAdapters.Notification_TypesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsNotificationsTableAdapters.DataTable1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsNotificationsTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:POSN.dsNotificationsTableAdapters.TableAdapterManager.UpdateUpdatedRows(POSN.dsNotifications,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsNotificationsTableAdapters.TableAdapterManager.UpdateInsertedRows(POSN.dsNotifications,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsNotificationsTableAdapters.TableAdapterManager.UpdateDeletedRows(POSN.dsNotifications,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:POSN.dsNotificationsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:POSN.dsNotificationsTableAdapters.TableAdapterManager.UpdateAll(POSN.dsNotifications)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:POSN.dsNotificationsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:POSN.dsNotificationsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:POSN.dsNotificationsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:POSN.dsStatuses.StatusDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsStatuses.StatusRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsStatuses.StatusRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsStatuses">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:POSN.dsStatusesTableAdapters.StatusTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsStatusesTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:POSN.dsStatusesTableAdapters.TableAdapterManager.UpdateUpdatedRows(POSN.dsStatuses,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsStatusesTableAdapters.TableAdapterManager.UpdateInsertedRows(POSN.dsStatuses,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsStatusesTableAdapters.TableAdapterManager.UpdateDeletedRows(POSN.dsStatuses,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:POSN.dsStatusesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:POSN.dsStatusesTableAdapters.TableAdapterManager.UpdateAll(POSN.dsStatuses)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:POSN.dsStatusesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:POSN.dsStatusesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:POSN.dsStatusesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:POSN.ItmSel.frmItmSel">
+	<summary>
+frmItmSel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.hfShowStock">
+	<summary>
+hfShowStock control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.pnlK1">
+	<summary>
+pnlK1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lblK1">
+	<summary>
+lblK1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnK1Select">
+	<summary>
+ibtnK1Select control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.grdK1">
+	<summary>
+grdK1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.pnlK2">
+	<summary>
+pnlK2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lblK2">
+	<summary>
+lblK2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnK2Select">
+	<summary>
+ibtnK2Select control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.grdK2">
+	<summary>
+grdK2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.pnlK3">
+	<summary>
+pnlK3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lblK3">
+	<summary>
+lblK3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnK3Select">
+	<summary>
+ibtnK3Select control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.grdK3">
+	<summary>
+grdK3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.pnlK4">
+	<summary>
+pnlK4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lblK4">
+	<summary>
+lblK4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnK4Select">
+	<summary>
+ibtnK4Select control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.grdK4">
+	<summary>
+grdK4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnRestart">
+	<summary>
+ibtnRestart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnGet">
+	<summary>
+ibtnGet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.imgCheck">
+	<summary>
+imgCheck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lblSelect">
+	<summary>
+lblSelect control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lblItem">
+	<summary>
+lblItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.txtSearch">
+	<summary>
+txtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnSearch">
+	<summary>
+ibtnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.grdItm">
+	<summary>
+grdItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lbtnItmFirst">
+	<summary>
+lbtnItmFirst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lbtnItmPrev">
+	<summary>
+lbtnItmPrev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lbtnItmNext">
+	<summary>
+lbtnItmNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lbtnItmLast">
+	<summary>
+lbtnItmLast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lblItmPCnt">
+	<summary>
+lblItmPCnt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.inpPageType">
+	<summary>
+inpPageType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.pnlBtnOrd">
+	<summary>
+pnlBtnOrd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lblQtyOrd">
+	<summary>
+lblQtyOrd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.txtQtyOrd">
+	<summary>
+txtQtyOrd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnAddOrd">
+	<summary>
+ibtnAddOrd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnKitOrd">
+	<summary>
+ibtnKitOrd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnCartOrd">
+	<summary>
+ibtnCartOrd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.pnlBtnItm">
+	<summary>
+pnlBtnItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnBackItm">
+	<summary>
+ibtnBackItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnEditItm">
+	<summary>
+ibtnEditItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.pnlBtnKit">
+	<summary>
+pnlBtnKit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.txtQtyKit">
+	<summary>
+txtQtyKit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.lblQtyKit">
+	<summary>
+lblQtyKit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnAddKit">
+	<summary>
+ibtnAddKit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ibtnBackKit">
+	<summary>
+ibtnBackKit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.vMaxQty">
+	<summary>
+vMaxQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.txtItmRow">
+	<summary>
+txtItmRow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.txtItmSelCnt">
+	<summary>
+txtItmSelCnt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.txtItmSelFrom">
+	<summary>
+txtItmSelFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ScrollXPosK1">
+	<summary>
+ScrollXPosK1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ScrollXPosK2">
+	<summary>
+ScrollXPosK2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ScrollXPosK3">
+	<summary>
+ScrollXPosK3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ScrollXPosK4">
+	<summary>
+ScrollXPosK4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ScrollXPosItm">
+	<summary>
+ScrollXPosItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ScrollYPosItm">
+	<summary>
+ScrollYPosItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ScrollXPosDoc">
+	<summary>
+ScrollXPosDoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.ScrollYPosDoc">
+	<summary>
+ScrollYPosDoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.ItmSel.LoadTime">
+	<summary>
+LoadTime control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.frmOrdSve">
+	<summary>
+frmOrdSve control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.divOrderMsg">
+	<summary>
+divOrderMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.lblOrderMessage">
+	<summary>
+lblOrderMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.lblStatus">
+	<summary>
+lblStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblOrd">
+	<summary>
+tblOrd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblReqTtl">
+	<summary>
+tblReqTtl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblRequest">
+	<summary>
+tblRequest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblReq">
+	<summary>
+tblReq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblReqEdt">
+	<summary>
+tblReqEdt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.cmdEditReq">
+	<summary>
+cmdEditReq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.divShipBox">
+	<summary>
+divShipBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblShpTtl">
+	<summary>
+tblShpTtl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblShip">
+	<summary>
+tblShip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblShp">
+	<summary>
+tblShp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblShpEdt">
+	<summary>
+tblShpEdt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.cmdEditShp">
+	<summary>
+cmdEditShp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.divCustomBox">
+	<summary>
+divCustomBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblCSTtl">
+	<summary>
+tblCSTtl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblCustom">
+	<summary>
+tblCustom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblCS">
+	<summary>
+tblCS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblCSEdt">
+	<summary>
+tblCSEdt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.cmdEditCS">
+	<summary>
+cmdEditCS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblItmTtl">
+	<summary>
+tblItmTtl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblDetail">
+	<summary>
+tblDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.dUploadMessage">
+	<summary>
+dUploadMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblItm">
+	<summary>
+tblItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tblItmEdt">
+	<summary>
+tblItmEdt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.cmdEditItm">
+	<summary>
+cmdEditItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.tcWarningEdit">
+	<summary>
+tcWarningEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.lblPMsg">
+	<summary>
+lblPMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.lblConfirm">
+	<summary>
+lblConfirm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.lblMsgCont">
+	<summary>
+lblMsgCont control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.lblCustomerName">
+	<summary>
+lblCustomerName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.lblCustomerPhone">
+	<summary>
+lblCustomerPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.lblCustomerEmail">
+	<summary>
+lblCustomerEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.cmdPrint">
+	<summary>
+cmdPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.cmdBackEdit">
+	<summary>
+cmdBackEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.cmdCancelOrder">
+	<summary>
+cmdCancelOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.cmdBackCancel">
+	<summary>
+cmdBackCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.cmdSubmit">
+	<summary>
+cmdSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.cmdNew">
+	<summary>
+cmdNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSve.cmdPrintBack">
+	<summary>
+cmdPrintBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.frmAdmInvE">
+	<summary>
+frmAdmInvE control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblItm">
+	<summary>
+lblItm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblItmWarn">
+	<summary>
+lblItmWarn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblActDate">
+	<summary>
+lblActDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.txtActDate">
+	<summary>
+txtActDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblInActDate">
+	<summary>
+lblInActDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.txtInActDate">
+	<summary>
+txtInActDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblUVal">
+	<summary>
+lblUVal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.txtUVal">
+	<summary>
+txtUVal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblFirstUse">
+	<summary>
+lblFirstUse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.txtFirstUse">
+	<summary>
+txtFirstUse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblLastUse">
+	<summary>
+lblLastUse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.txtLastUse">
+	<summary>
+txtLastUse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblLastQty">
+	<summary>
+lblLastQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.txtLastQty">
+	<summary>
+txtLastQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblMonthsRv">
+	<summary>
+lblMonthsRv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.txtMonthsRvw">
+	<summary>
+txtMonthsRvw control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblQty">
+	<summary>
+lblQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.txtQty">
+	<summary>
+txtQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblTVal">
+	<summary>
+lblTVal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.txtTVal">
+	<summary>
+txtTVal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblAvgWk">
+	<summary>
+lblAvgWk control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.txtAvgWk">
+	<summary>
+txtAvgWk control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblWeeksRm">
+	<summary>
+lblWeeksRm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.txtWeeksRm">
+	<summary>
+txtWeeksRm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.divWarn">
+	<summary>
+divWarn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.lblWarn">
+	<summary>
+lblWarn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvE.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvP.frmAdmInvP">
+	<summary>
+frmAdmInvP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvP.lblHead">
+	<summary>
+lblHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvP.grd">
+	<summary>
+grd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmInvP.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:POSN.dsKey.Customer_KeyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsKey.Customer_KeyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsKey.Customer_KeyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsKey">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:POSN.dsKeyTableAdapters.Customer_KeyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:POSN.dsKeyTableAdapters.TableAdapterManager.UpdateUpdatedRows(POSN.dsKey,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsKeyTableAdapters.TableAdapterManager.UpdateInsertedRows(POSN.dsKey,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsKeyTableAdapters.TableAdapterManager.UpdateDeletedRows(POSN.dsKey,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:POSN.dsKeyTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:POSN.dsKeyTableAdapters.TableAdapterManager.UpdateAll(POSN.dsKey)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:POSN.dsKeyTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:POSN.dsKeyTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:POSN.dsKeyTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:POSN.emptyOrders.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.emptyOrders.gvEmptyOrders">
+	<summary>
+gvEmptyOrders control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitVw.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitVw.frmKitVw">
+	<summary>
+frmKitVw control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitVw.hfShowStock">
+	<summary>
+hfShowStock control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitVw.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitVw.lblRefNo">
+	<summary>
+lblRefNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitVw.lblRefName">
+	<summary>
+lblRefName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitVw.tblQty">
+	<summary>
+tblQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.KitVw.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUseP.frmAdmUseP">
+	<summary>
+frmAdmUseP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUseP.lblHead">
+	<summary>
+lblHead control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUseP.grd">
+	<summary>
+grd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUseP.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSveP.frmOrdSveP">
+	<summary>
+frmOrdSveP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSveP.tblLoad">
+	<summary>
+tblLoad control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSveP.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:POSN.dsExclusions.GetExclusionByDescriptionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsExclusions.CatagoriesByAccessCodeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsExclusions.ExclusionsByTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsExclusions.ExclusionsByIdDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsExclusions.Customer_AccessCodeExclusionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsExclusions.AccessCodeExclusionsByDescriptionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsExclusions.GetExclusionByCustomerIDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsExclusions.GetExclusionsForKitsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsExclusions.CategoriesByAccessCodeKitsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsExclusions.GetExclusionsByKeywordDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsExclusions.GetExclusionByDescriptionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsExclusions.CatagoriesByAccessCodeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsExclusions.ExclusionsByTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsExclusions.ExclusionsByIdRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsExclusions.Customer_AccessCodeExclusionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsExclusions.AccessCodeExclusionsByDescriptionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsExclusions.GetExclusionByCustomerIDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsExclusions.GetExclusionsForKitsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsExclusions.CategoriesByAccessCodeKitsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsExclusions.GetExclusionsByKeywordRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsExclusions.GetExclusionByDescriptionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsExclusions.CatagoriesByAccessCodeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsExclusions.ExclusionsByTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsExclusions.ExclusionsByIdRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsExclusions.Customer_AccessCodeExclusionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsExclusions.AccessCodeExclusionsByDescriptionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsExclusions.GetExclusionByCustomerIDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsExclusions.GetExclusionsForKitsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsExclusions.CategoriesByAccessCodeKitsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsExclusions.GetExclusionsByKeywordRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsExclusions">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.GetExclusionByDescriptionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.CatagoriesByAccessCodeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.ExclusionsByTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.ExclusionsByIdTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.Customer_AccessCodeExclusionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.AccessCodeExclusionsByDescriptionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.GetExclusionByCustomerIDTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.GetExclusionsForKitsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.CategoriesByAccessCodeKitsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.GetExclusionsByKeywordTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:POSN.dsExclusionsTableAdapters.TableAdapterManager.UpdateUpdatedRows(POSN.dsExclusions,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsExclusionsTableAdapters.TableAdapterManager.UpdateInsertedRows(POSN.dsExclusions,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsExclusionsTableAdapters.TableAdapterManager.UpdateDeletedRows(POSN.dsExclusions,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:POSN.dsExclusionsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:POSN.dsExclusionsTableAdapters.TableAdapterManager.UpdateAll(POSN.dsExclusions)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:POSN.dsExclusionsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:POSN.FetchPdf.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSShp.Div2">
+	<summary>
+Div2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSShp.frmAdmInvL">
+	<summary>
+frmAdmInvL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSShp.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSShp.lblLName">
+	<summary>
+lblLName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSShp.txtLName">
+	<summary>
+txtLName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSShp.lblCompany">
+	<summary>
+lblCompany control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSShp.txtCompany">
+	<summary>
+txtCompany control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSShp.cmdRefresh">
+	<summary>
+cmdRefresh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSShp.grd">
+	<summary>
+grd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSShp.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.frmAdmRSP">
+	<summary>
+frmAdmRSP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblDays">
+	<summary>
+lblDays control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.txtDays">
+	<summary>
+txtDays control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblDays2">
+	<summary>
+lblDays2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.cmdRefresh">
+	<summary>
+cmdRefresh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblShowItems">
+	<summary>
+lblShowItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.txtShowItems">
+	<summary>
+txtShowItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblRound">
+	<summary>
+lblRound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.txtRound">
+	<summary>
+txtRound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblFilterItmType">
+	<summary>
+lblFilterItmType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.cboItmType">
+	<summary>
+cboItmType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblFilterPart">
+	<summary>
+lblFilterPart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.txtPartNo">
+	<summary>
+txtPartNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblFilterStatus">
+	<summary>
+lblFilterStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.ddlStatusFilter">
+	<summary>
+ddlStatusFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblSort">
+	<summary>
+lblSort control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.cboSort1">
+	<summary>
+cboSort1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblThen1">
+	<summary>
+lblThen1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.cboSort2">
+	<summary>
+cboSort2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblThen2">
+	<summary>
+lblThen2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.cboSort3">
+	<summary>
+cboSort3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblExZero">
+	<summary>
+lblExZero control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.chkExZeroQty">
+	<summary>
+chkExZeroQty control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.tblRsp">
+	<summary>
+tblRsp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblNote">
+	<summary>
+lblNote control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblNote2">
+	<summary>
+lblNote2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.lblTotCost">
+	<summary>
+lblTotCost control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.txtTotCost">
+	<summary>
+txtTotCost control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.cmdPrint">
+	<summary>
+cmdPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmRSP.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.frmAdmUse">
+	<summary>
+frmAdmUse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.lblFrom">
+	<summary>
+lblFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.txtFrom">
+	<summary>
+txtFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.vtxtFrom">
+	<summary>
+vtxtFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.lblTo">
+	<summary>
+lblTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.txtTo">
+	<summary>
+txtTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.vtxtTo">
+	<summary>
+vtxtTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.vCompare">
+	<summary>
+vCompare control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.cmdRefresh">
+	<summary>
+cmdRefresh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.grd">
+	<summary>
+grd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.cmdPrint">
+	<summary>
+cmdPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUse.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:POSN.dsCustomerDocument.OrderQuantityLimitDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_Kit_DocumentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_kit_with_documentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_Document_DownloadableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_Document_Downloadable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_Document_DownloadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_DocumentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.OrderQuantityLimitRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_Kit_DocumentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_kit_with_documentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_Document_DownloadableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_Document_Downloadable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_Document_DownloadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_DocumentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.OrderQuantityLimitRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_Kit_DocumentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_kit_with_documentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_Document_DownloadableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_Document_Downloadable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_Document_DownloadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCustomerDocument.Customer_DocumentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCustomerDocument">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:POSN.dsCustomerDocumentTableAdapters.OrderQuantityLimitTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCustomerDocumentTableAdapters.Customer_Kit_DocumentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCustomerDocumentTableAdapters.Customer_kit_with_documentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCustomerDocumentTableAdapters.Customer_Document_DownloadableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCustomerDocumentTableAdapters.Customer_Document_Downloadable1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCustomerDocumentTableAdapters.Customer_Document_DownloadTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCustomerDocumentTableAdapters.Customer_DocumentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:POSN.dsCustomerDocumentTableAdapters.TableAdapterManager.UpdateUpdatedRows(POSN.dsCustomerDocument,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsCustomerDocumentTableAdapters.TableAdapterManager.UpdateInsertedRows(POSN.dsCustomerDocument,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsCustomerDocumentTableAdapters.TableAdapterManager.UpdateDeletedRows(POSN.dsCustomerDocument,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:POSN.dsCustomerDocumentTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:POSN.dsCustomerDocumentTableAdapters.TableAdapterManager.UpdateAll(POSN.dsCustomerDocument)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:POSN.dsCustomerDocumentTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:POSN.dsCustomerDocumentTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:POSN.dsCustomerDocumentTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:POSN.Refresh.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:POSN.dsInventory.InventoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsInventory.InventoryDetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsInventory.OrderQuantityLimitDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsInventory.ComponentQuantityLimitDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsInventory.ComponentQuantityLimitByReferenceNoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsInventory.OrderQuantityLimitByIDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsInventory.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsInventory.ComponentQuantityLimit2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsInventory.GetAvgUsageDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsInventory.dtPriceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsInventory.DataTable2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsInventory.InventoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsInventory.InventoryDetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsInventory.OrderQuantityLimitRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsInventory.ComponentQuantityLimitRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsInventory.ComponentQuantityLimitByReferenceNoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsInventory.OrderQuantityLimitByIDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsInventory.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsInventory.ComponentQuantityLimit2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsInventory.GetAvgUsageRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsInventory.dtPriceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsInventory.DataTable2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsInventory.InventoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsInventory.InventoryDetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsInventory.OrderQuantityLimitRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsInventory.ComponentQuantityLimitRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsInventory.ComponentQuantityLimitByReferenceNoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsInventory.OrderQuantityLimitByIDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsInventory.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsInventory.ComponentQuantityLimit2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsInventory.GetAvgUsageRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsInventory.dtPriceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsInventory.DataTable2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsInventory">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.InventoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.InventoryDetailTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.OrderQuantityLimitTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.ComponentQuantityLimitTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.ComponentQuantityLimitByReferenceNoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.OrderQuantityLimitByIDTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.DataTable1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.ComponentQuantityLimit2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.GetAvgUsageTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.dtPriceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.DataTable2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:POSN.dsInventoryTableAdapters.TableAdapterManager.UpdateUpdatedRows(POSN.dsInventory,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsInventoryTableAdapters.TableAdapterManager.UpdateInsertedRows(POSN.dsInventory,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsInventoryTableAdapters.TableAdapterManager.UpdateDeletedRows(POSN.dsInventory,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:POSN.dsInventoryTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:POSN.dsInventoryTableAdapters.TableAdapterManager.UpdateAll(POSN.dsInventory)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:POSN.dsInventoryTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:POSN.AdmUseDetails.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUseDetails.frmAdmUse">
+	<summary>
+frmAdmUse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUseDetails.lblDescrition">
+	<summary>
+lblDescrition control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUseDetails.grd">
+	<summary>
+grd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUseDetails.cmdPrint">
+	<summary>
+cmdPrint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmUseDetails.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdRvw.frmOrdRvw">
+	<summary>
+frmOrdRvw control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdRvw.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdRvw.tblDetail">
+	<summary>
+tblDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdRvw.cmdApprove">
+	<summary>
+cmdApprove control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdRvw.vREmail">
+	<summary>
+vREmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdRvw.lblREmail">
+	<summary>
+lblREmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdRvw.txtREmail">
+	<summary>
+txtREmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdRvw.txtRCC">
+	<summary>
+txtRCC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdRvw.vRContent">
+	<summary>
+vRContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdRvw.lblRContent">
+	<summary>
+lblRContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdRvw.txtRContent">
+	<summary>
+txtRContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdRvw.cmdRespond">
+	<summary>
+cmdRespond control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.frmOrdShp">
+	<summary>
+frmOrdShp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblAuth">
+	<summary>
+lblAuth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.tblCst">
+	<summary>
+tblCst control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.cmdClear">
+	<summary>
+cmdClear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.cmdSearch">
+	<summary>
+cmdSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblFName">
+	<summary>
+lblFName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtFName">
+	<summary>
+txtFName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblRFName">
+	<summary>
+lblRFName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblLName">
+	<summary>
+lblLName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtLName">
+	<summary>
+txtLName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblRLName">
+	<summary>
+lblRLName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblCompany">
+	<summary>
+lblCompany control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtCompany">
+	<summary>
+txtCompany control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblAddress1">
+	<summary>
+lblAddress1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtAddress1">
+	<summary>
+txtAddress1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblRAddress1">
+	<summary>
+lblRAddress1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblAddress2">
+	<summary>
+lblAddress2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtAddress2">
+	<summary>
+txtAddress2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblCity">
+	<summary>
+lblCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtCity">
+	<summary>
+txtCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblRCity">
+	<summary>
+lblRCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblState">
+	<summary>
+lblState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtState">
+	<summary>
+txtState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblRState">
+	<summary>
+lblRState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblZip">
+	<summary>
+lblZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtZip">
+	<summary>
+txtZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblRZip">
+	<summary>
+lblRZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblCountry">
+	<summary>
+lblCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtCountryDDL">
+	<summary>
+txtCountryDDL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblRCountry">
+	<summary>
+lblRCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblCountryMsg">
+	<summary>
+lblCountryMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtPhoneNumber">
+	<summary>
+txtPhoneNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.LabelPhone">
+	<summary>
+LabelPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.RequiredFieldValidatorPhone">
+	<summary>
+RequiredFieldValidatorPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.LabelEmail">
+	<summary>
+LabelEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.RequiredFieldValidatorEmail">
+	<summary>
+RequiredFieldValidatorEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.chkSendConfirmEmail">
+	<summary>
+chkSendConfirmEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblShip">
+	<summary>
+lblShip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.cboShip">
+	<summary>
+cboShip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblRShip">
+	<summary>
+lblRShip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.trScheduledDelivery">
+	<summary>
+trScheduledDelivery control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblScheduledDelivery">
+	<summary>
+lblScheduledDelivery control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtScheduledDate">
+	<summary>
+txtScheduledDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblRSchedule">
+	<summary>
+lblRSchedule control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblImmediate">
+	<summary>
+lblImmediate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblShipTypeNote">
+	<summary>
+lblShipTypeNote control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.lblNote">
+	<summary>
+lblNote control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtNote">
+	<summary>
+txtNote control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.txtItmRow">
+	<summary>
+txtItmRow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.cmdNext">
+	<summary>
+cmdNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdShp.cmdEditBack">
+	<summary>
+cmdEditBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Main.frmMain">
+	<summary>
+frmMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Main.lblMsg">
+	<summary>
+lblMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitL.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitL.frmOrdL">
+	<summary>
+frmOrdL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitL.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitL.grd">
+	<summary>
+grd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitL.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.AdmKitL.cmdAdd">
+	<summary>
+cmdAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:POSN.dsCategories.CatagoriesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCategories.CatagoryIdsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POSN.dsCategories.CatagoriesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCategories.CatagoryIdsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POSN.dsCategories.CatagoriesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCategories.CatagoryIdsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POSN.dsCategories">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:POSN.dsCategoriesTableAdapters.CatagoriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCategoriesTableAdapters.CatagoryIdsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POSN.dsCategoriesTableAdapters.SelectedCatagories">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:POSN.dsCategoriesTableAdapters.TableAdapterManager.UpdateUpdatedRows(POSN.dsCategories,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsCategoriesTableAdapters.TableAdapterManager.UpdateInsertedRows(POSN.dsCategories,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:POSN.dsCategoriesTableAdapters.TableAdapterManager.UpdateDeletedRows(POSN.dsCategories,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:POSN.dsCategoriesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:POSN.dsCategoriesTableAdapters.TableAdapterManager.UpdateAll(POSN.dsCategories)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:POSN.dsCategoriesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:POSN.dsCategoriesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:POSN.dsCategoriesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:POSN.Exclusions.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.frmOrdShp">
+	<summary>
+frmOrdShp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.RadScriptManager1">
+	<summary>
+RadScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.lblAccessCode0">
+	<summary>
+lblAccessCode0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.ddlAccessCode">
+	<summary>
+ddlAccessCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.lstItemTypes">
+	<summary>
+lstItemTypes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.pnlItems">
+	<summary>
+pnlItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.Documents4">
+	<summary>
+Documents4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.grdK1Rad">
+	<summary>
+grdK1Rad control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.grdK2Rad">
+	<summary>
+grdK2Rad control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.grdK3Rad">
+	<summary>
+grdK3Rad control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.pnlKits">
+	<summary>
+pnlKits control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.Documents5">
+	<summary>
+Documents5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.grdKitCategories">
+	<summary>
+grdKitCategories control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.lblDocuments">
+	<summary>
+lblDocuments control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.grdItmRad">
+	<summary>
+grdItmRad control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.Documents0">
+	<summary>
+Documents0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.Exclusions.grdExclusionsRad">
+	<summary>
+grdExclusionsRad control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSReq.Div2">
+	<summary>
+Div2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSReq.frmAdmInvL">
+	<summary>
+frmAdmInvL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSReq.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSReq.lblLName">
+	<summary>
+lblLName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSReq.txtLName">
+	<summary>
+txtLName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSReq.cmdRefresh">
+	<summary>
+cmdRefresh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSReq.grd">
+	<summary>
+grd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:POSN.OrdSReq.cmdBack">
+	<summary>
+cmdBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

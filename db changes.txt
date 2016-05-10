@@ -1,0 +1,6 @@
+﻿"Customer_AccessCode" table 
+field "AccountStatus" type "yes/no"  default "yes"
+field "AllowOrderEdit" type "yes/no"   default "yes"
+field "ReportHistoryVisibility" type text "N/G/L"  default "N"
+Add OrderQuantityLimit Query
+field - changed StockWarn from byte to Long Integer in Customer_Document_Fill

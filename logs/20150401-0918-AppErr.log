@@ -1,0 +1,28 @@
+
+      Error at 4/1/2015 9:18:39 AM
+           Msg:  Object reference not set to an instance of an object.
+           Src:  POS
+        StkTrc:     at POSN.ItmSel.BuildSQL_Itm(String sKeyword1IDs, String sKeyword2IDs, String sKeyword3IDs, String sKeyword4IDs, String sSearch, String sIDs) in C:\Para\POSNSQL\ItmSel.aspx.vb:line 905
+   at POSN.ItmSel.GetAddToCartMessage(String SelectedItems, Int32 QtyToOrder) in C:\Para\POSNSQL\ItmSel.aspx.vb:line 218
+   at POSN.ItmSel.Page_Init(Object sender, EventArgs e) in C:\Para\POSNSQL\ItmSel.aspx.vb:line 111
+   at System.Web.UI.Control.OnInit(EventArgs e)
+   at System.Web.UI.Page.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  ajax=1&type=validateitems&qty=34
+
+
+      Error at 4/1/2015 9:18:58 AM
+           Msg:  Object reference not set to an instance of an object.
+           Src:  POS
+        StkTrc:     at POSN.OrdCrt.BuildSQL_Itm(String sKeyword1IDs, String sKeyword2IDs, String sKeyword3IDs, String sKeyword4IDs, String sSearch, String sIDs) in C:\Para\POSNSQL\OrdCrt.aspx.vb:line 194
+   at POSN.OrdCrt.GetAddToCartMessage(String SelectedItems, Int32 QtyToOrder) in C:\Para\POSNSQL\OrdCrt.aspx.vb:line 222
+   at POSN.OrdCrt.Page_Init(Object sender, EventArgs e) in C:\Para\POSNSQL\OrdCrt.aspx.vb:line 56
+   at System.Web.UI.Control.OnInit(EventArgs e)
+   at System.Web.UI.Page.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  ajax=1&type=validateitems&qty=34
+

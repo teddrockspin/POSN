@@ -1,0 +1,99 @@
+﻿.cellheader
+{
+	background-color: #99CCFF  !important;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	color: #000000 !important;
+	font-family: Verdana;
+	font-size: 9px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.HeaderStyle2
+{
+	background-color: #FFCC99;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 9px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+.HeaderStyle3
+{
+	background-color: #99FF99;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 9px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+.HeaderStyle4
+{
+	background-color: #CC99FF;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 9px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+.HeaderStyle5
+{
+	background-color: #FFCC66;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 9px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+.BorderRight
+{
+	border-right-style: solid;
+	border-right-width: thin;
+	border-right-color: #000000;
+	background-color: white;
+	border-style: solid;
+	border-width: thin medium thin thin;
+	border-color: black;
+	color: black;
+	font-family: Verdana;
+	font-size: 9px;
+	font-weight: normal;
+	vertical-align: middle;
+}
+.DetailStyle5
+{
+	background-color: #FFE791;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	color: #000000;
+	font-family: Verdana;
+	font-size: 9px;
+	font-style: italic;
+	text-align: center;
+	vertical-align: middle;
+}

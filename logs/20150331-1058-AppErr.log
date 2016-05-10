@@ -1,0 +1,28 @@
+
+      Error at 3/31/2015 10:58:04 AM
+           Msg:  Operator '<' is not defined for type 'DBNull' and type 'Integer'.
+           Src:  Microsoft.VisualBasic
+        StkTrc:     at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectLess(Object Left, Object Right, Boolean TextCompare)
+   at POSN.ItmSel.GetAddToCartMessage(String SelectedItems) in C:\Para\POSNSQL\ItmSel.aspx.vb:line 220
+   at POSN.ItmSel.Page_Init(Object sender, EventArgs e) in C:\Para\POSNSQL\ItmSel.aspx.vb:line 111
+   at System.Web.UI.Control.OnInit(EventArgs e)
+   at System.Web.UI.Page.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  ajax=1&type=validateitems&data=8493%2c
+
+
+      Error at 3/31/2015 10:58:38 AM
+           Msg:  Operator '<' is not defined for type 'DBNull' and type 'Integer'.
+           Src:  Microsoft.VisualBasic
+        StkTrc:     at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectLess(Object Left, Object Right, Boolean TextCompare)
+   at POSN.ItmSel.GetAddToCartMessage(String SelectedItems) in C:\Para\POSNSQL\ItmSel.aspx.vb:line 220
+   at POSN.ItmSel.Page_Init(Object sender, EventArgs e) in C:\Para\POSNSQL\ItmSel.aspx.vb:line 111
+   at System.Web.UI.Control.OnInit(EventArgs e)
+   at System.Web.UI.Page.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  ajax=1&type=validateitems&data=8493%2c8490%2c
+

@@ -1,0 +1,15 @@
+-c0|-l2|-S1|-E99999|-D0|-X0|-K1|-H1|-M1|-Z0|-I0|-C1|-s"C:\winpdfnup\PDFnUp.exe" "[IN]" "[OUT].pdf" -ab|-P|-T|-p0|-F|-r1
+
+Activate Monitoring - CHECK
+5 seconds
+
+Sort files on NO ORDER
+
+Transfer check delay - 10
+D:\Batch Print Folders\CF6501\402
+Only print file type .PDF
+User printer
+Use printer settings D:\Batch Print Folders\CF6501\CL-SETUP_402.prs
+Use Processing Settings:0|-l0|-C1|-s "C:\winpdfnup\PDFnUp.exe" "[IN]" "[OUT].pdf" -ab|-P|-T|-p0|-F|-r1|
+Move to directory after print: bpdelete
+OVerwrite Old

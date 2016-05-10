@@ -1,0 +1,28 @@
+
+      Error at 9/12/2013 12:04:29 PM
+           Msg:  Control 'hfShowStock' of type 'HiddenField' must be placed inside a form tag with runat=server.
+           Src:  System.Web
+        StkTrc:     at System.Web.UI.Page.VerifyRenderingInServerForm(Control control)
+   at System.Web.UI.WebControls.HiddenField.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at ASP.itmsel_aspx.__RenderDiv1(HtmlTextWriter __w, Control parameterContainer) in C:\Code\POSNSQL\ItmSel.aspx:line 375
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at ASP.itmsel_aspx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in C:\Code\POSNSQL\ItmSel.aspx:line 1148
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.Page.Render(HtmlTextWriter writer)
+   at POSN.paraPageBase.Render(HtmlTextWriter writer) in C:\Code\POSNSQL\paraPageBase.vb:line 380
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  C=O
+

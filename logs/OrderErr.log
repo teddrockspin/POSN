@@ -1,0 +1,89 @@
+      12-08-2014 02:46:47 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      12-08-2014 02:47:08 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      12-08-2014 02:47:29 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      12-08-2014 02:47:29 **ERROR** ORDER:   SendMessage >> The specified string is not in the form required for an e-mail address.
+      12-08-2014 02:47:50 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      12-08-2014 03:03:58 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      12-08-2014 03:04:20 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      12-08-2014 03:04:41 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      12-08-2014 03:04:41 **ERROR** ORDER:   SendMessage >> The specified string is not in the form required for an e-mail address.
+      12-08-2014 03:05:02 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      12-08-2014 03:29:54 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      12-08-2014 03:30:16 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      12-08-2014 03:30:37 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      12-08-2014 03:30:37 **ERROR** ORDER:   SendMessage >> The specified string is not in the form required for an e-mail address.
+      12-08-2014 03:30:58 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      12-08-2014 03:31:20 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      02-09-2015 09:43:49 **ERROR** ORDER:  GetAvailability >> Object reference not set to an instance of an object. : SELECT SUM(QtyOrdered) AS QtyToFill FROM Order_Document INNER JOIN [Order] ON Order_Document.OrderID = [Order].ID WHERE [Order].StatusID <> 3  AND Order_Document.DocumentID = 8218 AND Order_Document.PrintMethod = 0 AND (Order_Document.Status<>1)
+
+      02-09-2015 09:44:14 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      02-09-2015 09:48:13 **ERROR** ORDER:  GetAvailability >> Object reference not set to an instance of an object. : SELECT SUM(QtyOrdered) AS QtyToFill FROM Order_Document INNER JOIN [Order] ON Order_Document.OrderID = [Order].ID WHERE [Order].StatusID <> 3  AND Order_Document.DocumentID = 8218 AND Order_Document.PrintMethod = 0 AND (Order_Document.Status<>1)
+
+      02-09-2015 09:48:37 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      02-10-2015 09:27:42 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      02-20-2015 01:59:04 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      02-20-2015 01:59:26 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      02-20-2015 02:06:33 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      02-20-2015 02:06:54 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      02-20-2015 02:10:53 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      02-20-2015 02:11:15 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      02-20-2015 02:27:47 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      02-20-2015 02:28:11 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      03-17-2015 02:22:11 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      03-17-2015 02:22:32 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      03-18-2015 02:20:35 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      03-30-2015 02:18:07 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      03-30-2015 02:18:45 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      03-30-2015 02:52:01 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      03-30-2015 02:52:40 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      03-30-2015 02:54:48 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      03-30-2015 02:55:34 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      03-30-2015 02:58:06 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      03-30-2015 02:58:28 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      03-30-2015 03:09:24 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:14:03 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:14:24 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:22:24 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:22:45 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:23:06 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:23:27 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:23:49 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:28:07 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:29:13 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:29:24 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:29:40 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:30:01 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:32:38 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:32:59 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:33:20 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:33:31 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:33:53 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:36:44 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      05-21-2015 11:37:03 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      08-20-2015 09:19:10 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      08-20-2015 09:29:01 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      09-02-2015 11:53:17 **ERROR** ORDER:  GetAvailability >> Object reference not set to an instance of an object. : SELECT SUM(QtyOrdered) AS QtyToFill FROM Order_Document INNER JOIN [Order] ON Order_Document.OrderID = [Order].ID WHERE [Order].StatusID in (1,5,6,7)  AND Order_Document.DocumentID = 1333 AND Order_Document.PrintMethod = 0 AND (Order_Document.Status<>1)
+
+      09-02-2015 11:53:58 **ERROR** ORDER:  GetAvailability >> Object reference not set to an instance of an object. : SELECT SUM(QtyOrdered) AS QtyToFill FROM Order_Document INNER JOIN [Order] ON Order_Document.OrderID = [Order].ID WHERE [Order].StatusID in (1,5,6,7)  AND Order_Document.DocumentID = 1966 AND Order_Document.PrintMethod = 0 AND (Order_Document.Status<>1)
+
+      09-02-2015 11:54:31 **ERROR** ORDER:  GetAvailability >> Object reference not set to an instance of an object. : SELECT SUM(QtyOrdered) AS QtyToFill FROM Order_Document INNER JOIN [Order] ON Order_Document.OrderID = [Order].ID WHERE [Order].StatusID in (1,5,6,7)  AND Order_Document.DocumentID = 2799 AND Order_Document.PrintMethod = 0 AND (Order_Document.Status<>1)
+
+      09-02-2015 11:55:04 **ERROR** ORDER:  GetAvailability >> Object reference not set to an instance of an object. : SELECT SUM(QtyOrdered) AS QtyToFill FROM Order_Document INNER JOIN [Order] ON Order_Document.OrderID = [Order].ID WHERE [Order].StatusID in (1,5,6,7)  AND Order_Document.DocumentID = 3344 AND Order_Document.PrintMethod = 0 AND (Order_Document.Status<>1)
+
+      09-02-2015 11:56:00 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      09-02-2015 01:13:24 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      10-09-2015 08:44:50 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      10-09-2015 11:17:07 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      10-13-2015 10:08:31 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      10-13-2015 10:08:55 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      10-13-2015 10:09:17 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      10-13-2015 10:14:29 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      10-13-2015 10:14:50 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      10-13-2015 10:17:44 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      10-13-2015 10:18:05 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      10-14-2015 08:44:39 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      10-14-2015 08:47:32 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      11-05-2015 12:59:04 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      11-05-2015 12:59:25 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      11-05-2015 01:07:17 **ERROR** ORDER:   SendMessage >> Failure sending mail.
+      11-05-2015 01:07:38 **ERROR** ORDER:   SendMessage >> Failure sending mail.

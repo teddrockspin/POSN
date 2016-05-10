@@ -1,0 +1,62 @@
+      10-14-2015 08:44:16 - ORDER:    OrderCreate Start...  
+      10-14-2015 08:44:16 - ORDER:      Base Order Start...
+      10-14-2015 08:44:16 - ORDER:        Base Variables Loaded...
+      10-14-2015 08:44:16 - ORDER:      Connected...
+      10-14-2015 08:44:16 - ORDER:      Access Code ID:  497
+      10-14-2015 08:44:16 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 497, '10/14/2015 8:44:16 AM', '', 'Steve', 'Higgins', 'steve.higgins@waynehomes.com', 30, '', 2.5, 172, 10, 26, 26, 0, '', '', '5774 Woodville', '', 'Leetonia', 'OH', '44431', 'United States', 'Dan', 'Hill','10/14/2015 8:44:16 AM','b3d87278-52a8-49e3-aa03-13d7e3133230', '', '', 'False') 
+      10-14-2015 08:44:16 - ORDER:          Message:    Successful Execute
+      10-14-2015 08:44:16 - ORDER:      Reading Order ID...  497 AND 10/14/2015 8:44:16 AM
+      10-14-2015 08:44:16 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 497) AND (TempGUID = 'b3d87278-52a8-49e3-aa03-13d7e3133230'))
+      10-14-2015 08:44:16 - ORDER:        Located Order ID...  85322
+      10-14-2015 08:44:16 - ORDER:        Order ID:  85322
+      10-14-2015 08:44:16 - ORDER:      Base Order End
+      10-14-2015 08:44:16 - ORDER:      Saving Custom Start...
+      10-14-2015 08:44:16 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      10-14-2015 08:44:16 - ORDER:      Saved Custom End True
+      10-14-2015 08:44:16 - ORDER:      Saving Items Start...
+      10-14-2015 08:44:16 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      10-14-2015 08:44:17 - ORDER:      Saved Items End True
+      10-14-2015 08:44:17 - ORDER:      Saving Kits Start...
+      10-14-2015 08:44:17 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      10-14-2015 08:44:17 - ORDER:      Saved Kits End True
+      10-14-2015 08:44:18 - ORDER:      Requires Authorization:  False
+      10-14-2015 08:44:18 - ORDER:      Order Activated:  True
+      10-14-2015 08:44:18 - ORDER:    SendMessage - trying to send email to: steve.higgins@waynehomes.com, Subject: Order Confirmation
+      10-14-2015 08:44:39 - ORDER:    SendNewOrderNotifications for order# 85322
+      10-14-2015 08:44:39 - ORDER:    OrderCreate End... True10/14/2015 8:44:39 AM
+
+      10-14-2015 08:44:39 - ORDER:    Closing Connection
+      10-14-2015 08:44:39 - ORDER:    OrderID = 85322
+      10-14-2015 08:44:39 - ORDER:    OrderCreate >> Success ? True
+
+      10-14-2015 08:46:49 - ORDER:    OrderCreate Start...  
+      10-14-2015 08:46:49 - ORDER:      Base Order Start...
+      10-14-2015 08:46:49 - ORDER:        Base Variables Loaded...
+      10-14-2015 08:46:49 - ORDER:      Connected...
+      10-14-2015 08:46:49 - ORDER:      Access Code ID:  497
+      10-14-2015 08:46:50 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 497, '10/14/2015 8:46:49 AM', '', 'Steve', 'Higgins', 'steve.higgins@waynehomes.com', 30, '', 2.5, 172, 10, 26, 26, 0, '', '', '5774 Woodville', '', 'Leetonia', 'OH', '44431', 'United States', 'Dan', 'Hill','10/14/2015 8:46:49 AM','e6a5ef1f-b39a-4fdf-b532-08d4af92dce8', '', '', 'False') 
+      10-14-2015 08:46:50 - ORDER:          Message:    Successful Execute
+      10-14-2015 08:46:50 - ORDER:      Reading Order ID...  497 AND 10/14/2015 8:46:49 AM
+      10-14-2015 08:46:50 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 497) AND (TempGUID = 'e6a5ef1f-b39a-4fdf-b532-08d4af92dce8'))
+      10-14-2015 08:46:50 - ORDER:        Located Order ID...  85323
+      10-14-2015 08:46:50 - ORDER:        Order ID:  85323
+      10-14-2015 08:46:50 - ORDER:      Base Order End
+      10-14-2015 08:46:50 - ORDER:      Saving Custom Start...
+      10-14-2015 08:46:50 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      10-14-2015 08:46:50 - ORDER:      Saved Custom End True
+      10-14-2015 08:46:50 - ORDER:      Saving Items Start...
+      10-14-2015 08:46:50 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      10-14-2015 08:46:51 - ORDER:      Saved Items End True
+      10-14-2015 08:46:51 - ORDER:      Saving Kits Start...
+      10-14-2015 08:46:51 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      10-14-2015 08:47:00 - ORDER:      Saved Kits End True
+      10-14-2015 08:47:11 - ORDER:      Requires Authorization:  False
+      10-14-2015 08:47:11 - ORDER:      Order Activated:  True
+      10-14-2015 08:47:11 - ORDER:    SendMessage - trying to send email to: steve.higgins@waynehomes.com, Subject: Order Confirmation
+      10-14-2015 08:47:32 - ORDER:    SendNewOrderNotifications for order# 85323
+      10-14-2015 08:47:32 - ORDER:    OrderCreate End... True10/14/2015 8:47:32 AM
+
+      10-14-2015 08:47:32 - ORDER:    Closing Connection
+      10-14-2015 08:47:32 - ORDER:    OrderID = 85323
+      10-14-2015 08:47:32 - ORDER:    OrderCreate >> Success ? True
+

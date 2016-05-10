@@ -1,0 +1,16 @@
+
+      Error at 10/15/2013 1:29:21 PM
+           Msg:  Cannot find column 10/15/2013.
+           Src:  System.Data
+        StkTrc:     at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at POSN.AdmUse.LoadGrd(String sFromDate, String sToDate, String sSortField) in C:\Code\POSNSQL\AdmUse.aspx.vb:line 83
+   at POSN.AdmUse.LoadData(String sSortField) in C:\Code\POSNSQL\AdmUse.aspx.vb:line 60
+   at POSN.AdmUse.Page_Load(Object sender, EventArgs e) in C:\Code\POSNSQL\AdmUse.aspx.vb:line 51
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  
+

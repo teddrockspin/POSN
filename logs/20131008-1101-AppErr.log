@@ -1,0 +1,11 @@
+
+      Error at 10/8/2013 11:01:23 AM
+           Msg:  Object reference not set to an instance of an object.
+           Src:  POS
+        StkTrc:     at POSN.GetFile.Page_Load(Object sender, EventArgs e) in C:\Code\POSNSQL\GetFile.aspx.vb:line 29
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  docID=9828&f=1
+

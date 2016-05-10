@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="POSN">
+</Property><Property Name="Solution File" Value="C:\Users\Michael Reed\Documents\RMR Development\Paragraphics\POS\POS\POS\POSN.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Michael Reed\Documents\RMR Development\Paragraphics\POS\POS\POS\POSN.suo">
+</Property><Property Name="Date" Value="Thursday, November 05, 2009">
+</Property><Property Name="Time" Value="17:25 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="POSN.sln" Description="File successfully backed up as C:\Users\Michael Reed\Documents\RMR Development\Paragraphics\POS\POS\POS\Backup\POSN.sln">
+</Event><Event ErrorLevel="0" Project="" Source="POSN.suo" Description="File successfully backed up as C:\Users\Michael Reed\Documents\RMR Development\Paragraphics\POS\POS\POS\Backup\POSN.suo">
+</Event><Event ErrorLevel="1" Project="POSN" Source="http://localhost/POSN/POSN.vbproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="http://localhost/POSN/POSN.vbproj" Source="http://localhost/POSN/POSN.vbproj" Description="ERROR: Failed to back up Web site http://localhost/POSN/POSN.vbproj">
+</Event><Event ErrorLevel="0" Project="" Source="POSN.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="POSN.sln" Description="Converted">
+</Event></UpgradeLog>

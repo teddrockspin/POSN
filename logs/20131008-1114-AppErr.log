@@ -1,0 +1,13 @@
+
+      Error at 10/8/2013 11:14:11 AM
+           Msg:  Object reference not set to an instance of an object.
+           Src:  POS
+        StkTrc:     at POSN.AdmUse.LoadGrd(String sSortField) in C:\Code\POSNSQL\AdmUse.aspx.vb:line 108
+   at POSN.AdmUse.LoadData(String sSortField) in C:\Code\POSNSQL\AdmUse.aspx.vb:line 58
+   at POSN.AdmUse.Page_Load(Object sender, EventArgs e) in C:\Code\POSNSQL\AdmUse.aspx.vb:line 49
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  
+

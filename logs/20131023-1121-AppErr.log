@@ -1,0 +1,17 @@
+
+      Error at 10/23/2013 11:21:44 AM
+           Msg:  An error occurred while communicating with the remote host. The error code is 0x80070040.
+           Src:  System.Web
+        StkTrc:     at System.Web.Hosting.ISAPIWorkerRequestInProcForIIS6.FlushCore(Byte[] status, Byte[] header, Int32 keepConnected, Int32 totalBodySize, Int32 numBodyFragments, IntPtr[] bodyFragments, Int32[] bodyFragmentLengths, Int32 doneWithSession, Int32 finalStatus, Boolean& async)
+   at System.Web.Hosting.ISAPIWorkerRequest.FlushCachedResponse(Boolean isFinal)
+   at System.Web.Hosting.ISAPIWorkerRequest.FlushResponse(Boolean finalFlush)
+   at System.Web.HttpResponse.Flush(Boolean finalFlush)
+   at System.Web.HttpResponse.Flush()
+   at POSN.GetFile.SendFile(String strPath) in C:\Code\POSNSQL\GetFile.aspx.vb:line 96
+   at POSN.GetFile.Page_Load(Object sender, EventArgs e) in C:\Code\POSNSQL\GetFile.aspx.vb:line 49
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  docID=14308&f=15
+

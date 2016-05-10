@@ -1,0 +1,25 @@
+﻿.carttable
+{
+	
+}
+.lblPrice
+{
+	height:18px;
+	color:Black;
+	font-family:Verdana;
+	font-size:11px;
+	
+}
+
+.lblUploaded
+{
+	height: 18px;
+	color: #00CC00;
+	font-family: Verdana;
+	font-size: 11px;
+}
+
+.ui-widget
+{
+	font-size: small !important;
+}

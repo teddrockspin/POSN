@@ -1,0 +1,13 @@
+
+      Error at 4/1/2015 9:31:00 AM
+           Msg:  Object reference not set to an instance of an object.
+           Src:  POS
+        StkTrc:     at POSN.OrdCrt.GetAddToCartMessage(Int32 QtyToOrder) in C:\Para\POSNSQL\OrdCrt.aspx.vb:line 260
+   at POSN.OrdCrt.Page_Init(Object sender, EventArgs e) in C:\Para\POSNSQL\OrdCrt.aspx.vb:line 56
+   at System.Web.UI.Control.OnInit(EventArgs e)
+   at System.Web.UI.Page.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  ajax=1&type=validateitems&qty=23
+

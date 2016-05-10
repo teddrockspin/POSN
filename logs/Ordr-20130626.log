@@ -1,0 +1,63 @@
+      06-26-2013 02:56:23 - ORDER:    OrderCreate Start...  
+      06-26-2013 02:56:23 - ORDER:      Base Order Start...
+      06-26-2013 02:56:23 - ORDER:        Base Variables Loaded...
+      06-26-2013 02:56:23 - ORDER:      Connected...
+      06-26-2013 02:56:23 - ORDER:      Access Code ID:  222
+      06-26-2013 02:56:23 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 222, '6/26/2013 2:56:23 PM', '', 'Ilya', 'Broverman', 'festivenoodle@gmail.com', 40, '', 2.5, 292.75, 20, 144, 144, 0, '', 'RMR', 'N/A', '', 'N/A', 'N/A', 'N/A', 'N/A', 'Ilya', 'Broverman','6/26/2013 2:56:23 PM','8d5a7c37-af72-48dd-b740-ac13619300a8', '', '', 'False') 
+      06-26-2013 02:56:23 - ORDER:          Message:    Successful Execute
+      06-26-2013 02:56:23 - ORDER:      Reading Order ID...  222 AND 6/26/2013 2:56:23 PM
+      06-26-2013 02:56:23 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 222) AND (TempGUID = '8d5a7c37-af72-48dd-b740-ac13619300a8'))
+      06-26-2013 02:56:23 - ORDER:        Located Order ID...  62317
+      06-26-2013 02:56:23 - ORDER:        Order ID:  62317
+      06-26-2013 02:56:23 - ORDER:      Base Order End
+      06-26-2013 02:56:23 - ORDER:      Saving Custom Start...
+      06-26-2013 02:56:23 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      06-26-2013 02:56:23 - ORDER:      Saved Custom End True
+      06-26-2013 02:56:23 - ORDER:      Saving Items Start...
+      06-26-2013 02:56:23 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      06-26-2013 02:56:23 - ORDER:      Saved Items End True
+      06-26-2013 02:56:23 - ORDER:      Saving Kits Start...
+      06-26-2013 02:56:23 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      06-26-2013 02:56:23 - ORDER:      Saved Kits End True
+      06-26-2013 02:56:23 - ORDER:      Requires Authorization:  False
+      06-26-2013 02:56:23 - ORDER:      Order Activated:  True
+      06-26-2013 02:56:23 - ORDER:    ERROR:  
+Failed to enable constraints. One or more rows contain values violating non-null, unique, or foreign-key constraints.
+
+      06-26-2013 02:56:23 **ERROR** ORDER:  OrderCreate >> Failed to enable constraints. One or more rows contain values violating non-null, unique, or foreign-key constraints.
+      06-26-2013 02:56:24 - ORDER:    Closing Connection
+      06-26-2013 02:56:24 - ORDER:    OrderID = 62317
+      06-26-2013 02:56:24 - ORDER:    OrderCreate >> Success ? True
+
+      06-26-2013 03:12:53 - ORDER:    OrderCreate Start...  
+      06-26-2013 03:12:53 - ORDER:      Base Order Start...
+      06-26-2013 03:12:53 - ORDER:        Base Variables Loaded...
+      06-26-2013 03:12:53 - ORDER:      Connected...
+      06-26-2013 03:12:53 - ORDER:      Access Code ID:  222
+      06-26-2013 03:12:53 - ORDER:        Inserted Base Record:  INSERT INTO [Order] (StatusID, AccessCodeID, RequestDate, Requestor_Title, Requestor_FirstName, Requestor_LastName, Requestor_Email, CoverSheetID, CS_Content, ProcessingChg, MonthlyChg, FreightMarkupChg, PreferredShipID, ActualShipID, ShipHdChg, ShipNote, ShipTo_Name, ShipTo_Address1, ShipTo_Address2, ShipTo_City, ShipTo_State, ShipTo_ZipCode, ShipTo_Country, ShipTo_ContactFirstName, ShipTo_ContactLastName, ModifiedDate,TempGUID,RecipientPhone,RecipientEmail ,SendRecipientConfirmEmail ) VALUES (6, 222, '6/26/2013 3:12:53 PM', '', 'Ilya', 'Broverman', 'festivenoodle@gmail.com', 40, '', 2.5, 292.75, 20, 76, 76, 0, '', 'RMR', 'N/A', '', 'N/A', 'N/A', 'N/A', 'United States', 'Ilya', 'Broverman','6/26/2013 3:12:53 PM','69da7b08-1cdf-4dfb-873f-f3806faef316', '', '', 'False') 
+      06-26-2013 03:12:53 - ORDER:          Message:    Successful Execute
+      06-26-2013 03:12:53 - ORDER:      Reading Order ID...  222 AND 6/26/2013 3:12:53 PM
+      06-26-2013 03:12:53 - ORDER:        SELECT ID AS OrderID FROM [Order] WHERE ((AccessCodeID = 222) AND (TempGUID = '69da7b08-1cdf-4dfb-873f-f3806faef316'))
+      06-26-2013 03:12:53 - ORDER:        Located Order ID...  62318
+      06-26-2013 03:12:53 - ORDER:        Order ID:  62318
+      06-26-2013 03:12:53 - ORDER:      Base Order End
+      06-26-2013 03:12:53 - ORDER:      Saving Custom Start...
+      06-26-2013 03:12:53 - ORDER:        Attempt to Reset Cnn - OrderCreate_Custom
+      06-26-2013 03:12:53 - ORDER:      Saved Custom End True
+      06-26-2013 03:12:53 - ORDER:      Saving Items Start...
+      06-26-2013 03:12:53 - ORDER:        Attempt to Reset Cnn - OrderCreate_Itms
+      06-26-2013 03:12:53 - ORDER:      Saved Items End True
+      06-26-2013 03:12:53 - ORDER:      Saving Kits Start...
+      06-26-2013 03:12:53 - ORDER:        Attempt to Reset Cnn - OrderCreate_Kits
+      06-26-2013 03:12:53 - ORDER:      Saved Kits End True
+      06-26-2013 03:12:54 - ORDER:      Requires Authorization:  False
+      06-26-2013 03:12:54 - ORDER:      Order Activated:  True
+      06-26-2013 03:12:54 - ORDER:      ActivateDownloadableItems Email text...<table><tr><td>You have requested the following digital files from the Altercare of Ohio collateral fulfillment site. Please click on the links below and follow all appropriate directions to retrieve your files. Note that these links will only remain active for a period of 48 hours from the time your request was placed.</td></tr></table><table></table>
+      06-26-2013 03:12:54 - ORDER:    SendMessage - trying to send email to: festivenoodle@gmail.com, Subject: Request Number 62318
+      06-26-2013 03:12:54 - ORDER:    SendNewOrderNotifications for order# 62318
+      06-26-2013 03:12:54 - ORDER:    OrderCreate End... True6/26/2013 3:12:54 PM
+
+      06-26-2013 03:12:54 - ORDER:    Closing Connection
+      06-26-2013 03:12:54 - ORDER:    OrderID = 62318
+      06-26-2013 03:12:54 - ORDER:    OrderCreate >> Success ? True
+

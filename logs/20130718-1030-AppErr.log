@@ -1,0 +1,16 @@
+
+      Error at 7/18/2013 10:30:18 AM
+           Msg:  Value was either too large or too small for a Decimal.
+           Src:  mscorlib
+        StkTrc:     at System.Decimal..ctor(Double value)
+   at POSN.paraData.GetSupply(Int32 lCurrQty, Int32 intQtyUsage, Int32 intRequests, Int32 intMeaningfulWeeks, Int32 intMeaningfulOrderQty, String sStatus, Int32 intStockWarningPieces, Int32 intHorizonDays) in C:\Code\POSNSQL\paraData.vb:line 1493
+   at POSN.AdmInvL.LoadGrd(String sSortField) in C:\Code\POSNSQL\AdmInvL.aspx.vb:line 207
+   at POSN.AdmInvL.LoadData() in C:\Code\POSNSQL\AdmInvL.aspx.vb:line 58
+   at POSN.AdmInvL.Page_Init(Object sender, EventArgs e) in C:\Code\POSNSQL\AdmInvL.aspx.vb:line 36
+   at System.Web.UI.Control.OnInit(EventArgs e)
+   at System.Web.UI.Page.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  
+

@@ -1,0 +1,15 @@
+
+      Error at 3/31/2015 10:50:29 AM
+           Msg:  StartIndex cannot be less than zero.
+Parameter name: startIndex
+           Src:  mscorlib
+        StkTrc:     at System.String.Remove(Int32 startIndex)
+   at POSN.ItmSel.GetAddToCartMessage(String SelectedItems) in C:\Para\POSNSQL\ItmSel.aspx.vb:line 226
+   at POSN.ItmSel.Page_Init(Object sender, EventArgs e) in C:\Para\POSNSQL\ItmSel.aspx.vb:line 111
+   at System.Web.UI.Control.OnInit(EventArgs e)
+   at System.Web.UI.Page.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  ajax=1&type=validateitems&data=8493%2c
+

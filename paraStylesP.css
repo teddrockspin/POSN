@@ -1,0 +1,328 @@
+/* Default CSS Stylesheet for a new Web Application project */
+
+BODY
+{
+    BACKGROUND-COLOR: white;
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: .8em;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+}
+
+.lblTitle
+{
+	color:White;
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	vertical-align:middle;
+}
+.lblBTitle
+{
+	height:18px;
+	width:260px;
+	color:Black;
+	font-family:Verdana;
+	font-size:10px;
+    font-weight:bold;
+	vertical-align:middle;
+}
+.lblDTitle
+{
+	color:black;
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	vertical-align:middle;
+}
+.lblNoteBack
+{
+	color:Green;
+	height:18px;
+	width:600px;
+	font-family:Verdana;
+	font-size:9px;
+	font-weight:bold;
+	vertical-align:middle;
+}
+.lblNoteInactive
+{
+	color:Red;
+	height:18px;
+	width:600px;
+	font-family:Verdana;
+	font-size:9px;
+	font-weight:bold;
+	vertical-align:middle;
+}
+.lblMedium
+{
+	height:18px;
+	width:140px;
+	color:Black;
+	font-family:Verdana;
+	font-size:11px;
+	vertical-align:middle;
+}
+.lblMediumLong
+{
+	height:18px;
+	width:190px;
+	color:Black;
+	font-family:Verdana;
+	font-size:10px;
+	vertical-align:middle;
+}
+.lblLong
+{
+	height:18px;
+	width:260px;
+	color:Black;
+	font-family:Verdana;
+	font-size:11px;
+	vertical-align:middle;
+}
+.lblLongSmall
+{
+	height:18px;
+	width:350px;
+	color:Black;
+	font-family:Verdana;
+	font-size:9px;
+	vertical-align:middle;
+}
+.lblXShort
+{
+	height:18px;
+	width:36px;
+	color:Black;
+	font-family:Verdana;
+	font-size:11px;
+	text-align:center;
+	vertical-align:middle;
+	vertical-align:middle;
+}
+.lblShort
+{
+	height:18px;
+	width:36px;
+	color:Black;
+	font-family:Verdana;
+	font-size:10px;
+	vertical-align:middle;
+}
+.lblXLong
+{
+	height:18px;
+	width:320px;
+	color:Black;
+	font-family:Verdana;
+	font-size:10px;
+	vertical-align:middle;
+}
+.lblXLongM
+{
+	height:70px;
+	width:355px;
+	background-color:Transparent;
+	color:Black;
+	font-family:Verdana;
+	font-size:11px;
+	vertical-align:middle;
+}
+.lblXLongL
+{
+	height:140px;
+	width:355px;
+	background-color:Transparent;
+	color:Black;
+	font-family:Verdana;
+	font-size:11px;
+	vertical-align:middle;
+}
+.lblXLongBack
+{
+	height:18px;
+	width:300px;
+	color:#bd5304;
+	font-family:Verdana;
+	font-size:10px;
+	vertical-align:middle;
+}
+.lblXLongInActive
+{
+	height:18px;
+	width:300px;
+	color:Red;
+	font-family:Verdana;
+	font-size:10px;
+	vertical-align:middle;
+}
+.lblXLongDescriptor
+{
+	height:18px;
+	width:400px;
+	color:Black;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:10px;
+	vertical-align:middle;
+}
+.lblNumber
+{
+	height:18px;
+	width:40px;
+	color:Black;
+	font-family:Verdana;
+	font-size:11px;
+	text-align:right;
+	vertical-align:middle;
+}
+.txtNumberLong
+{
+	height:18px;
+	width:100px;
+	color:Black;
+	font-family:Verdana;
+	font-size:11px;
+	text-align:right;
+	vertical-align:middle;
+}
+.cmdMedium
+{
+	border-color:white;
+	border-style:solid;
+	border-width:1px;
+	background-color:gray;
+	font-family:Verdana;
+	font-size:9px;
+	font-weight:bold;
+	color:Black;
+	height:18px;
+	width:70px;	
+}
+.cmdMediumO
+{
+	border-color:white;
+	border-style:solid;
+	border-width:1px;
+	background-color:#E08E0A;
+	font-family:Verdana;
+	font-size:9px;
+	font-weight:bold;
+	color:white;
+	height:18px;
+	width:70px;	
+}
+
+.grdCstHead
+{
+	border-style:none;
+	font-family:Verdana;
+	font-size:10px;
+	font-style:italic;
+	font-weight:bolder;
+}
+.grdCstBody
+{
+	background-color:White;
+	color:Black;
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:normal;
+}
+.grdCstSelect
+{
+	font-family:Verdana;
+	font-size:10px;
+	font-style:italic;
+	font-weight:bold;
+}
+.grdHead
+{
+	border-style:none;
+	font-family:Verdana;
+	font-size:10px;
+	font-style:italic;
+	font-weight:bolder;
+}
+.grdBody
+{
+	background-color:White;
+	color:Black;
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:normal;
+}
+.grdSelect
+{
+	font-family:Verdana;
+	font-size:10px;
+	font-style:italic;
+	font-weight:bold;
+}
+.grdQHead
+{
+  visibility:hidden;
+}
+.grdQBody
+{
+	background-color:Transparent;
+	border-style:none;
+	border-width:0;
+	color:Navy;
+	font-family:Times New Roman;
+	font-size:12px;
+	font-weight:normal;
+}
+.grdQAlternate
+{
+	background-color:Transparent;
+	border-style:none;
+	border-width:0;
+	color:DodgerBlue;
+	font-family:Times New Roman;
+	font-size:12px;
+	font-weight:normal;
+}
+.CellHeader
+{
+	background-color:white;
+	border-style:solid;
+	border-width:thin;
+	border-color:black;
+	color:black;
+	font-family:Verdana;
+	font-style:italic;
+	font-size:9px;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+}
+.CellEntry
+{
+	background-color:white;
+	border-style:solid;
+	border-width:thin;
+	border-color:black;
+	color:black;
+	font-family:Verdana;
+	font-size:9px;
+	font-weight:normal;
+	vertical-align:middle;
+}
+.CellEntryWarn
+{
+	background-color:black;
+	border-style:solid;
+	border-width:thin;
+	border-color:black;
+	color:black;
+	font-family:Verdana;
+	font-size:9px;
+	font-weight:normal;
+	vertical-align:middle;
+}
+

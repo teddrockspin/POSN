@@ -1,0 +1,14 @@
+
+      Error at 3/30/2015 4:36:15 PM
+           Msg:  There is no row at position 0.
+           Src:  System.Data
+        StkTrc:     at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at POSN.ItmSel.Page_Load(Object sender, EventArgs e) in C:\Para\POSNSQL\ItmSel.aspx.vb:line 149
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  C=O
+

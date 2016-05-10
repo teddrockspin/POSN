@@ -1,0 +1,28 @@
+﻿BODY {
+ overflow:auto;   
+}
+.tdformatname {
+    width: 80%;
+}
+
+
+#ibtnSearch {
+    vertical-align:middle;
+}
+.downloadinfo {
+    font-family: Verdana;
+    font-size: 11px;
+    width:100%;
+}
+.accordionheader {
+    font-size:11px !important;
+    color:#ff0084;
+}
+.DnLditmStyle {
+    border-left:solid 1px;
+    border-right:solid 1px;
+}
+.grdItmAvailable {
+    color:blue;
+    min-width:200px;
+}

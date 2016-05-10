@@ -1,0 +1,21 @@
+
+      Error at 11/12/2013 10:58:37 AM
+           Msg:  A field or property with the name 'QTYDisposed' was not found on the selected data source.
+           Src:  System.Web
+        StkTrc:     at System.Web.UI.WebControls.BoundColumn.OnDataBindColumn(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at POSN.AdmUse.LoadGrd(String sFromDate, String sToDate, String sSortField) in C:\Code\POSNSQL\AdmUse.aspx.vb:line 88
+   at POSN.AdmUse.LoadData(String sSortField) in C:\Code\POSNSQL\AdmUse.aspx.vb:line 60
+   at POSN.AdmUse.Page_Load(Object sender, EventArgs e) in C:\Code\POSNSQL\AdmUse.aspx.vb:line 51
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+        ReqFrm:  
+        ReqStr:  
+
